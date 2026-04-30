@@ -1,0 +1,45 @@
+# Environment — NEVER commit API keys
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Embedding cache — 97MB, not needed at inference time
+data/processed/cache/
+data/processed/embeddings.json
+data/processed/embeddings.tmp
+
+# Source PDF — too large, judges don't need to rebuild
+data/raw/dataset.pdf
+
+# Output files (judges generate their own)
+data/public_results.json
+data/bm25_results.json
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Expo / React Native
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp

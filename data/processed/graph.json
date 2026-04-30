@@ -1,0 +1,7803 @@
+{
+  "nodes": [
+    {
+      "id": "IS 383",
+      "is_code": "IS 383",
+      "year": 1970,
+      "title": "COARSE AND FINE AGGREGATES FROM NATURAL",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 17
+    },
+    {
+      "id": "IS 2116",
+      "is_code": "IS 2116",
+      "year": 1980,
+      "title": "SAND FOR MASONRY MORTARS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 205
+    },
+    {
+      "id": "IS 9142",
+      "is_code": "IS 9142",
+      "year": 1979,
+      "title": "ARTIFICIAL LIGHTWEIGHT AGGREGATES FOR",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 20
+    },
+    {
+      "id": "IS 269",
+      "is_code": "IS 269",
+      "year": 1989,
+      "title": "ORDINARY PORTLAND CEMENT, 33 GRADE",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 22
+    },
+    {
+      "id": "IS 455",
+      "is_code": "IS 455",
+      "year": 1989,
+      "title": "PORTLAND SLAG CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 23
+    },
+    {
+      "id": "IS 1489 (PART1)",
+      "is_code": "IS 1489 (PART1)",
+      "year": 1991,
+      "title": "PORTLAND POZZOLANA CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 24
+    },
+    {
+      "id": "IS 1489 (PART 2)",
+      "is_code": "IS 1489 (PART 2)",
+      "year": 1991,
+      "title": "PORTLAND POZZOLANA CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 25
+    },
+    {
+      "id": "IS 3466",
+      "is_code": "IS 3466",
+      "year": 1988,
+      "title": "MASONRY CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 26
+    },
+    {
+      "id": "IS 6452",
+      "is_code": "IS 6452",
+      "year": 1989,
+      "title": "HIGH ALUMINA CEMENT FOR STRUCTURAL USE",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 27
+    },
+    {
+      "id": "IS 6909",
+      "is_code": "IS 6909",
+      "year": 1990,
+      "title": "SUPERSULPHATED CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 28
+    },
+    {
+      "id": "IS 8041",
+      "is_code": "IS 8041",
+      "year": 1990,
+      "title": "RAPID HARDENING PORTLAND CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 29
+    },
+    {
+      "id": "IS 8042",
+      "is_code": "IS 8042",
+      "year": 1989,
+      "title": "WHITE  PORTLAND CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 30
+    },
+    {
+      "id": "IS 8043",
+      "is_code": "IS 8043",
+      "year": 1991,
+      "title": "HYDROPHOBIC PORTLAND CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 31
+    },
+    {
+      "id": "IS 8112",
+      "is_code": "IS 8112",
+      "year": 1989,
+      "title": "43 GRADE ORDINARY PORTLAND CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 32
+    },
+    {
+      "id": "IS 12269",
+      "is_code": "IS 12269",
+      "year": 1987,
+      "title": "53 GRADE ORDINARY PORTLAND CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 33
+    },
+    {
+      "id": "IS 12330",
+      "is_code": "IS 12330",
+      "year": 1988,
+      "title": "SULPHATE RESISTING PORTLAND CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 34
+    },
+    {
+      "id": "IS 2185 (PART  1)",
+      "is_code": "IS 2185 (PART  1)",
+      "year": 1979,
+      "title": "CONCRETE MASONRY UNITS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 35
+    },
+    {
+      "id": "IS 2185 (PART 2)",
+      "is_code": "IS 2185 (PART 2)",
+      "year": 1983,
+      "title": "CONCRETE MASONRY UNITS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 37
+    },
+    {
+      "id": "IS 2185 (PART 3)",
+      "is_code": "IS 2185 (PART 3)",
+      "year": 1984,
+      "title": "CONCRETE MASONRY UNITS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 39
+    },
+    {
+      "id": "IS 4996",
+      "is_code": "IS 4996",
+      "year": 1984,
+      "title": "REINFORCED CONCRETE FENCE POSTS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 40
+    },
+    {
+      "id": "IS 5751",
+      "is_code": "IS 5751",
+      "year": 1984,
+      "title": "PRECAST  CONCRETE COPING BLOCKS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 41
+    },
+    {
+      "id": "IS 5758",
+      "is_code": "IS 5758",
+      "year": 1984,
+      "title": "PRECAST CONCRETE KERBS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 42
+    },
+    {
+      "id": "IS 5820",
+      "is_code": "IS 5820",
+      "year": 1970,
+      "title": "PRECAST CONCRETE CABLE COVERS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 44
+    },
+    {
+      "id": "IS 6072",
+      "is_code": "IS 6072",
+      "year": 1971,
+      "title": "AUTOCLAVED REINFORCED CELLULAR",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 45
+    },
+    {
+      "id": "IS 6073",
+      "is_code": "IS 6073",
+      "year": 1971,
+      "title": "AUTOCLAVED REINFORCED CELLULAR",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 46
+    },
+    {
+      "id": "IS 6523",
+      "is_code": "IS 6523",
+      "year": 1983,
+      "title": "PRECAST REINFORCED CONCRETE DOOR",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 47
+    },
+    {
+      "id": "IS 9893",
+      "is_code": "IS 9893",
+      "year": 1981,
+      "title": "PRECAST CONCRETE BLOCKS FOR",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 48
+    },
+    {
+      "id": "IS 10388",
+      "is_code": "IS 10388",
+      "year": 1982,
+      "title": "CORRUGATED COIR, WOODWOOL,",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 49
+    },
+    {
+      "id": "IS 12440",
+      "is_code": "IS 12440",
+      "year": 1988,
+      "title": "PRECAST CONCRETE STONE MASONRY BLOCKS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 50
+    },
+    {
+      "id": "IS 12592",
+      "is_code": "IS 12592",
+      "year": 2002,
+      "title": "PRECAST CONCRETE MANHOLE",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 51
+    },
+    {
+      "id": "IS 13990",
+      "is_code": "IS 13990",
+      "year": 1994,
+      "title": "PRECAST REINFORCED CONCRETE",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 54
+    },
+    {
+      "id": "IS 14143",
+      "is_code": "IS 14143",
+      "year": 1994,
+      "title": "PREFABRICATED BRICK PANEL AND PARTIALLY",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 56
+    },
+    {
+      "id": "IS 14201",
+      "is_code": "IS 14201",
+      "year": 1994,
+      "title": "PRECAST REINFORCED CONCRETE CHANNEL",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 58
+    },
+    {
+      "id": "IS 14241",
+      "is_code": "IS 14241",
+      "year": 1995,
+      "title": "PRECAST REINFORCED CONCRETE  L–PANEL",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 60
+    },
+    {
+      "id": "IS 459",
+      "is_code": "IS 459",
+      "year": 1992,
+      "title": "CORRUGATED AND SEMI-CORRUGATED ASBESTOS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 62
+    },
+    {
+      "id": "IS 1592",
+      "is_code": "IS 1592",
+      "year": 2003,
+      "title": "ASBESTOS CEMENT PRESSURE PIPES",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 63
+    },
+    {
+      "id": "IS 1626 (PART 1)",
+      "is_code": "IS 1626 (PART 1)",
+      "year": 1994,
+      "title": "ASBESTOS CEMENT BUILDING",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 67
+    },
+    {
+      "id": "IS 1626 (PART 2)",
+      "is_code": "IS 1626 (PART 2)",
+      "year": 1994,
+      "title": "ASBESTOS CEMENT BUILDING",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 69
+    },
+    {
+      "id": "IS 1626",
+      "is_code": "IS 1626",
+      "year": 1984,
+      "title": "ASBESTOS CEMENT BUILDING",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 70
+    },
+    {
+      "id": "IS 2096",
+      "is_code": "IS 2096",
+      "year": 1992,
+      "title": "ASBESTOS CEMENT FLAT SHEETS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 71
+    },
+    {
+      "id": "IS 2098",
+      "is_code": "IS 2098",
+      "year": 1997,
+      "title": "ASBESTOS CEMENT BUILDING BOARDS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 72
+    },
+    {
+      "id": "IS 6908",
+      "is_code": "IS 6908",
+      "year": 1991,
+      "title": "ASBESTOS CEMENT PIPES AND FITTINGS FOR",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 73
+    },
+    {
+      "id": "IS 8870",
+      "is_code": "IS 8870",
+      "year": 1978,
+      "title": "ASBESTOS CEMENT CABLE CONDUITS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 75
+    },
+    {
+      "id": "IS 9627",
+      "is_code": "IS 9627",
+      "year": 1980,
+      "title": "ASBESTOS CEMENT PRESSURE PIPES",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 76
+    },
+    {
+      "id": "IS 13000",
+      "is_code": "IS 13000",
+      "year": 1990,
+      "title": "SILICA ASBESTOS  - CEMENT",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 78
+    },
+    {
+      "id": "IS 13008",
+      "is_code": "IS 13008",
+      "year": 1990,
+      "title": "SHALLOW CORRUGATED ASBESTOS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 79
+    },
+    {
+      "id": "IS 458",
+      "is_code": "IS 458",
+      "year": 2003,
+      "title": "PRECAST CONCRETE PIPES (WITH AND",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 80
+    },
+    {
+      "id": "IS 784",
+      "is_code": "IS 784",
+      "year": 2001,
+      "title": "PRESTRESSED CONCRETE PIPES",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 81
+    },
+    {
+      "id": "IS 4350",
+      "is_code": "IS 4350",
+      "year": 1967,
+      "title": "CONCRETE POROUS PIPES FOR UNDER",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 84
+    },
+    {
+      "id": "IS 7319",
+      "is_code": "IS 7319",
+      "year": 1974,
+      "title": "PERFORATED CONCRETE PIPES",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 86
+    },
+    {
+      "id": "IS 7322",
+      "is_code": "IS 7322",
+      "year": 1985,
+      "title": "SPECIALS FOR STEEL CYLINDER REINFORCED",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 88
+    },
+    {
+      "id": "IS 1834",
+      "is_code": "IS 1834",
+      "year": 1984,
+      "title": "HOT APPLIED SEALING COMPOUNDS",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 89
+    },
+    {
+      "id": "IS 1838 (PART 2)",
+      "is_code": "IS 1838 (PART 2)",
+      "year": 1984,
+      "title": "PREFORMED  FILLERS FOR  EXPANSION",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 91
+    },
+    {
+      "id": "IS 11433 (PART 1)",
+      "is_code": "IS 11433 (PART 1)",
+      "year": 1985,
+      "title": "ONE-PART GUN-GRADE POLYSULPHIDE-",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 92
+    },
+    {
+      "id": "IS 12118 (PART 1)",
+      "is_code": "IS 12118 (PART 1)",
+      "year": 1987,
+      "title": "TWO-PARTS POLYSULPHIDE BASED",
+      "section": 1,
+      "section_name": "Cement and Concrete",
+      "page_start": 93
+    },
+    {
+      "id": "IS 712",
+      "is_code": "IS 712",
+      "year": 1984,
+      "title": "BUILDING LIMES",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 97
+    },
+    {
+      "id": "IS 2686",
+      "is_code": "IS 2686",
+      "year": 1977,
+      "title": "CINDER AS FINE AGGREGATES FOR",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 100
+    },
+    {
+      "id": "IS 3068",
+      "is_code": "IS 3068",
+      "year": 1986,
+      "title": "BROKEN BRICK (BURNT CLAY) COARSE",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 101
+    },
+    {
+      "id": "IS 3115",
+      "is_code": "IS 3115",
+      "year": 1992,
+      "title": "LIME BASED BLOCKS",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 102
+    },
+    {
+      "id": "IS 3182",
+      "is_code": "IS 3182",
+      "year": 1986,
+      "title": "BROKEN BRICK (BURNT CLAY)",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 103
+    },
+    {
+      "id": "IS 4098",
+      "is_code": "IS 4098",
+      "year": 1983,
+      "title": "LIME POZZOLANA MIXTURE",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 104
+    },
+    {
+      "id": "IS 4139",
+      "is_code": "IS 4139",
+      "year": 1989,
+      "title": "CALCIUM SILICATE BRICKS",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 105
+    },
+    {
+      "id": "IS 10360",
+      "is_code": "IS 10360",
+      "year": 1982,
+      "title": "LIME-POZZOLANA CONCRETE",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 106
+    },
+    {
+      "id": "IS 10772",
+      "is_code": "IS 10772",
+      "year": 1983,
+      "title": "QUICK SETTING LIME POZZOLANA MIXTURE",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 107
+    },
+    {
+      "id": "IS 12894",
+      "is_code": "IS 12894",
+      "year": 2002,
+      "title": "PULVERIZED FUEL ASH-LIME BRICKS",
+      "section": 2,
+      "section_name": "Building Limes",
+      "page_start": 108
+    },
+    {
+      "id": "IS 1127",
+      "is_code": "IS 1127",
+      "year": 1970,
+      "title": "DIMENSIONS AND WORKMANSHIP OF NATURAL",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 113
+    },
+    {
+      "id": "IS 1128",
+      "is_code": "IS 1128",
+      "year": 1974,
+      "title": "LIMESTONE (SLAB AND  TILES)",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 114
+    },
+    {
+      "id": "IS 1130",
+      "is_code": "IS 1130",
+      "year": 1969,
+      "title": "MARBLE  (BLOCKS, SLABS AND TILES)",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 115
+    },
+    {
+      "id": "IS 3316",
+      "is_code": "IS 3316",
+      "year": 1974,
+      "title": "STRUCTURAL GRANITE",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 116
+    },
+    {
+      "id": "IS 3620",
+      "is_code": "IS 3620",
+      "year": 1979,
+      "title": "LATERITE  STONE  BLOCK  FOR  MASONRY",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 117
+    },
+    {
+      "id": "IS 3622",
+      "is_code": "IS 3622",
+      "year": 1977,
+      "title": "SANDSTONE (SLABS AND TILES)",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 118
+    },
+    {
+      "id": "IS 6250",
+      "is_code": "IS 6250",
+      "year": 1981,
+      "title": "ROOFING SLATE TILES",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 119
+    },
+    {
+      "id": "IS 6579",
+      "is_code": "IS 6579",
+      "year": 1981,
+      "title": "COARSE AGGREGATE FOR WATER BOUND",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 120
+    },
+    {
+      "id": "IS 9394",
+      "is_code": "IS 9394",
+      "year": 1979,
+      "title": "STONE LINTELS",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 121
+    },
+    {
+      "id": "IS 14223 (PART 1)",
+      "is_code": "IS 14223 (PART 1)",
+      "year": 1995,
+      "title": "POLISHED BUILDING STONES",
+      "section": 3,
+      "section_name": "Stones",
+      "page_start": 122
+    },
+    {
+      "id": "IS 1077",
+      "is_code": "IS 1077",
+      "year": 1992,
+      "title": "COMMON BURNT CLAY BUILDING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 125
+    },
+    {
+      "id": "IS 2180",
+      "is_code": "IS 2180",
+      "year": 1988,
+      "title": "HEAVY DUTY BURNT CLAY BUILDING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 126
+    },
+    {
+      "id": "IS 2222",
+      "is_code": "IS 2222",
+      "year": 1991,
+      "title": "BURNT CLAY PERFORATED BUILDING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 127
+    },
+    {
+      "id": "IS 2691",
+      "is_code": "IS 2691",
+      "year": 1988,
+      "title": "BURNT CLAY FACING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 128
+    },
+    {
+      "id": "IS 3583",
+      "is_code": "IS 3583",
+      "year": 1988,
+      "title": "BURNT CLAY PAVING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 129
+    },
+    {
+      "id": "IS 3952",
+      "is_code": "IS 3952",
+      "year": 1988,
+      "title": "BURNT CLAY HOLLOW  BRICKS FOR WALLS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 130
+    },
+    {
+      "id": "IS 4885",
+      "is_code": "IS 4885",
+      "year": 1988,
+      "title": "SEWER BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 131
+    },
+    {
+      "id": "IS 5779",
+      "is_code": "IS 5779",
+      "year": 1986,
+      "title": "BURNT CLAY SOLING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 132
+    },
+    {
+      "id": "IS 6165",
+      "is_code": "IS 6165",
+      "year": 1992,
+      "title": "DIMENSIONS FOR SPECIAL SHAPES OF CLAY",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 133
+    },
+    {
+      "id": "IS 13757",
+      "is_code": "IS 13757",
+      "year": 1993,
+      "title": "BURNT CLAY FLY ASH BUILDING BRICKS",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 134
+    },
+    {
+      "id": "IS 7556",
+      "is_code": "IS 7556",
+      "year": 1988,
+      "title": "BURNT CLAY  JALLIES",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 135
+    },
+    {
+      "id": "IS 654",
+      "is_code": "IS 654",
+      "year": 1992,
+      "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 136
+    },
+    {
+      "id": "IS 1464",
+      "is_code": "IS 1464",
+      "year": 1992,
+      "title": "CLAY RIDGE AND  CEILING TILES",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 137
+    },
+    {
+      "id": "IS 1478",
+      "is_code": "IS 1478",
+      "year": 1992,
+      "title": "CLAY FLOORING  TILES",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 138
+    },
+    {
+      "id": "IS 2690 (PART 1)",
+      "is_code": "IS 2690 (PART 1)",
+      "year": 1993,
+      "title": "BURNT CLAY–FLAT TERRACING TILES",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 139
+    },
+    {
+      "id": "IS 2690 (PART 2)",
+      "is_code": "IS 2690 (PART 2)",
+      "year": 1992,
+      "title": "BURNT CLAY FLAT TERRACING TILES",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 140
+    },
+    {
+      "id": "IS 3367",
+      "is_code": "IS 3367",
+      "year": 1993,
+      "title": "BURNT CLAY TILES FOR USE IN LINING",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 141
+    },
+    {
+      "id": "IS 3951 (PART 1)",
+      "is_code": "IS 3951 (PART 1)",
+      "year": 1975,
+      "title": "HOLLOW CLAY TILES FOR",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 142
+    },
+    {
+      "id": "IS 3951 (PART 2)",
+      "is_code": "IS 3951 (PART 2)",
+      "year": 1975,
+      "title": "HOLLOW CLAY TILES FOR",
+      "section": 4,
+      "section_name": "Wood Products for Building",
+      "page_start": 143
+    },
+    {
+      "id": "IS 2095 (PART 1)",
+      "is_code": "IS 2095 (PART 1)",
+      "year": 1996,
+      "title": "GYPSUM PLASTER BOARDS",
+      "section": 5,
+      "section_name": "Gypsum Building Materials",
+      "page_start": 147
+    },
+    {
+      "id": "IS 2095 (PART 3)",
+      "is_code": "IS 2095 (PART 3)",
+      "year": 1996,
+      "title": "GYPSUM PLASTER BOARDS",
+      "section": 5,
+      "section_name": "Gypsum Building Materials",
+      "page_start": 149
+    },
+    {
+      "id": "IS 2547 (PART 1)",
+      "is_code": "IS 2547 (PART 1)",
+      "year": 1976,
+      "title": "GYPSUM BUILDING PLASTERS",
+      "section": 5,
+      "section_name": "Gypsum Building Materials",
+      "page_start": 151
+    },
+    {
+      "id": "IS 2547 (PART 2)",
+      "is_code": "IS 2547 (PART 2)",
+      "year": 1976,
+      "title": "GYPSUM BUILDING PLASTER",
+      "section": 5,
+      "section_name": "Gypsum Building Materials",
+      "page_start": 153
+    },
+    {
+      "id": "IS 2849",
+      "is_code": "IS 2849",
+      "year": 1983,
+      "title": "NON-LOAD BEARING GYPSUM PARTITION",
+      "section": 5,
+      "section_name": "Gypsum Building Materials",
+      "page_start": 154
+    },
+    {
+      "id": "IS 8272",
+      "is_code": "IS 8272",
+      "year": 1984,
+      "title": "GYPSUM PLASTER FOR USE IN THE",
+      "section": 5,
+      "section_name": "Gypsum Building Materials",
+      "page_start": 155
+    },
+    {
+      "id": "IS 399",
+      "is_code": "IS 399",
+      "year": 1963,
+      "title": "CLASSIFICATION OF COMMERCIAL TIMBERS AND",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 159
+    },
+    {
+      "id": "IS 12896",
+      "is_code": "IS 12896",
+      "year": 1990,
+      "title": "INDIAN TIMBERS FOR DOOR AND",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 161
+    },
+    {
+      "id": "IS 190",
+      "is_code": "IS 190",
+      "year": 1991,
+      "title": "CONIFEROUS SAWN TIMBER",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 163
+    },
+    {
+      "id": "IS 876",
+      "is_code": "IS 876",
+      "year": 1992,
+      "title": "WOOD POLES  FOR OVER HEAD POWER",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 164
+    },
+    {
+      "id": "IS 1326",
+      "is_code": "IS 1326",
+      "year": 1992,
+      "title": "NON-CONIFEROUS  SAWN TIMBER",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 166
+    },
+    {
+      "id": "IS 2372",
+      "is_code": "IS 2372",
+      "year": 2004,
+      "title": "TIMBER FOR COOLING TOWERS",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 169
+    },
+    {
+      "id": "IS 3337",
+      "is_code": "IS 3337",
+      "year": 1978,
+      "title": "BALLIES FOR GENERAL PURPOSES",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 170
+    },
+    {
+      "id": "IS 3629",
+      "is_code": "IS 3629",
+      "year": 1986,
+      "title": "STRUCTURAL TIMBER IN BUILDINGS",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 171
+    },
+    {
+      "id": "IS 3731",
+      "is_code": "IS 3731",
+      "year": 1985,
+      "title": "TEAK  SQUARES",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 173
+    },
+    {
+      "id": "IS 4895",
+      "is_code": "IS 4895",
+      "year": 1985,
+      "title": "TEAK LOGS",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 176
+    },
+    {
+      "id": "IS 5246",
+      "is_code": "IS 5246",
+      "year": 2000,
+      "title": "CONIFEROUS LOGS",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 177
+    },
+    {
+      "id": "IS 6056",
+      "is_code": "IS 6056",
+      "year": 1970,
+      "title": "JOINTED WOOD POLES FOR  OVERHEAD",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 178
+    },
+    {
+      "id": "IS 7308",
+      "is_code": "IS 7308",
+      "year": 1999,
+      "title": "NON-CONIFEROUS LOGS",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 180
+    },
+    {
+      "id": "IS 10394",
+      "is_code": "IS 10394",
+      "year": 1982,
+      "title": "WOODEN SLEEPERS FOR  RAILWAY TRACK",
+      "section": 6,
+      "section_name": "Timber",
+      "page_start": 181
+    },
+    {
+      "id": "IS 73",
+      "is_code": "IS 73",
+      "year": 1992,
+      "title": "PAVING BITUMEN",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 185
+    },
+    {
+      "id": "IS 212",
+      "is_code": "IS 212",
+      "year": 1983,
+      "title": "CRUDE COAL TAR FOR GENERAL USE",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 187
+    },
+    {
+      "id": "IS 215",
+      "is_code": "IS 215",
+      "year": 1995,
+      "title": "ROAD TAR",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 188
+    },
+    {
+      "id": "IS 216",
+      "is_code": "IS 216",
+      "year": 1961,
+      "title": "COAL TAR PITCH",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 190
+    },
+    {
+      "id": "IS 218",
+      "is_code": "IS 218",
+      "year": 1983,
+      "title": "CREOSOTE OIL FOR USE AS WOOD",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 191
+    },
+    {
+      "id": "IS 454",
+      "is_code": "IS 454",
+      "year": 1994,
+      "title": "CUTBACK  BITUMEN FROM WAXY CRUDE",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 192
+    },
+    {
+      "id": "IS 3117",
+      "is_code": "IS 3117",
+      "year": 2004,
+      "title": "BITUMEN EMULSION FOR ROADS",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 194
+    },
+    {
+      "id": "IS 8887",
+      "is_code": "IS 8887",
+      "year": 2004,
+      "title": "BITUMEN EMULSION FOR ROADS",
+      "section": 7,
+      "section_name": "Bitumen and Tar Products",
+      "page_start": 196
+    },
+    {
+      "id": "IS 1237",
+      "is_code": "IS 1237",
+      "year": 1980,
+      "title": "CEMENT CONCRETE FLOORING TILES",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 202
+    },
+    {
+      "id": "IS 1542",
+      "is_code": "IS 1542",
+      "year": 1992,
+      "title": "SAND FOR  PLASTER",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 204
+    },
+    {
+      "id": "IS 4457",
+      "is_code": "IS 4457",
+      "year": 1982,
+      "title": "CERAMIC UNGLAZED VITREOUS ACID",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 206
+    },
+    {
+      "id": "IS 4832 (PART 1)",
+      "is_code": "IS 4832 (PART 1)",
+      "year": 1969,
+      "title": "CHEMICAL RESISTANT MORTARS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 207
+    },
+    {
+      "id": "IS 4832 (PART 2)",
+      "is_code": "IS 4832 (PART 2)",
+      "year": 1969,
+      "title": "CHEMICAL RESISTANT MORTARS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 208
+    },
+    {
+      "id": "IS 4832 (PART 3)",
+      "is_code": "IS 4832 (PART 3)",
+      "year": 1968,
+      "title": "CHEMICAL RESISTANT MORTARS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 209
+    },
+    {
+      "id": "IS 4860",
+      "is_code": "IS 4860",
+      "year": 1968,
+      "title": "ACID – RESISTANT BRICKS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 210
+    },
+    {
+      "id": "IS 13753",
+      "is_code": "IS 13753",
+      "year": 1993,
+      "title": "DUST– PRESSED CERAMIC TILES WITH WATER",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 211
+    },
+    {
+      "id": "IS 13754",
+      "is_code": "IS 13754",
+      "year": 1993,
+      "title": "DUST – PRESSED CERAMIC TILES WITH",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 213
+    },
+    {
+      "id": "IS 13755",
+      "is_code": "IS 13755",
+      "year": 1993,
+      "title": "DUST– PRESSED CERAMIC TILES",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 216
+    },
+    {
+      "id": "IS 13756",
+      "is_code": "IS 13756",
+      "year": 1993,
+      "title": "DUST – PRESSED CERAMIC TILES WITH LOW",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 219
+    },
+    {
+      "id": "IS 14862",
+      "is_code": "IS 14862",
+      "year": 2000,
+      "title": "FIBRE CEMENT FLAT SHEETS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 222
+    },
+    {
+      "id": "IS 14871",
+      "is_code": "IS 14871",
+      "year": 2000,
+      "title": "PRODUCTS IN FIBRE REINFORCED",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 225
+    },
+    {
+      "id": "IS 1195",
+      "is_code": "IS 1195",
+      "year": 2002,
+      "title": "BITUMEN MASTIC FOR FLOORING",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 228
+    },
+    {
+      "id": "IS 5317",
+      "is_code": "IS 5317",
+      "year": 2002,
+      "title": "BITUMEN MASTIC FOR  BRIDGE",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 230
+    },
+    {
+      "id": "IS 8374",
+      "is_code": "IS 8374",
+      "year": 1977,
+      "title": "BITUMEN MASTIC, ANTI-STATIC AND",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 231
+    },
+    {
+      "id": "IS 13026",
+      "is_code": "IS 13026",
+      "year": 1991,
+      "title": "BITUMEN MASTIC FOR FLOORING FOR",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 236
+    },
+    {
+      "id": "IS 653",
+      "is_code": "IS 653",
+      "year": 1992,
+      "title": "LINOLEUM SHEET  AND TILES",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 237
+    },
+    {
+      "id": "IS 3461",
+      "is_code": "IS 3461",
+      "year": 1980,
+      "title": "PVC ASBESTOS FLOOR TILES",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 239
+    },
+    {
+      "id": "IS 3462",
+      "is_code": "IS 3462",
+      "year": 1986,
+      "title": "UNBACKED FLEXIBLE PVC FLOORING",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 240
+    },
+    {
+      "id": "IS 9197",
+      "is_code": "IS 9197",
+      "year": 1979,
+      "title": "EPOXY RESIN, HARDENERS AND EPOXY",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 242
+    },
+    {
+      "id": "IS 12866",
+      "is_code": "IS 12866",
+      "year": 1989,
+      "title": "PLASTIC TRANSLUCENT SHEET MADE",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 244
+    },
+    {
+      "id": "IS 638",
+      "is_code": "IS 638",
+      "year": 1979,
+      "title": "SHEET RUBBER JOINTING AND RUBBER",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 246
+    },
+    {
+      "id": "IS 809",
+      "is_code": "IS 809",
+      "year": 1992,
+      "title": "RUBBER FLOORING MATERIALS",
+      "section": 8,
+      "section_name": "Floor, Wall, Roof Coverings and Finishes",
+      "page_start": 248
+    },
+    {
+      "id": "IS 1322",
+      "is_code": "IS 1322",
+      "year": 1993,
+      "title": "BITUMEN FELTS FOR WATER–PROOFING",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 253
+    },
+    {
+      "id": "IS 1580",
+      "is_code": "IS 1580",
+      "year": 1991,
+      "title": "BITUMINOUS COMPOUNDS FOR",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 256
+    },
+    {
+      "id": "IS 2645",
+      "is_code": "IS 2645",
+      "year": 2003,
+      "title": "INTEGRAL CEMENT WATER-PROOFING",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 257
+    },
+    {
+      "id": "IS 3037",
+      "is_code": "IS 3037",
+      "year": 1986,
+      "title": "BITUMEN MASTIC FOR USE IN",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 258
+    },
+    {
+      "id": "IS 3384",
+      "is_code": "IS 3384",
+      "year": 1986,
+      "title": "BITUMEN PRIMER FOR USE IN",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 260
+    },
+    {
+      "id": "IS 5871",
+      "is_code": "IS 5871",
+      "year": 1987,
+      "title": "BITUMEN MASTIC FOR",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 261
+    },
+    {
+      "id": "IS 7193",
+      "is_code": "IS 7193",
+      "year": 1974,
+      "title": "GLASS FIBRE BASE BITUMEN FELTS",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 262
+    },
+    {
+      "id": "IS 12027",
+      "is_code": "IS 12027",
+      "year": 1987,
+      "title": "SILICONE-BASED WATER REPELLENTS",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 263
+    },
+    {
+      "id": "IS 14695",
+      "is_code": "IS 14695",
+      "year": 1999,
+      "title": "GLASS FIBRE BASE COAL",
+      "section": 9,
+      "section_name": "Water Proofing and Damp Proofing Materials",
+      "page_start": 264
+    },
+    {
+      "id": "IS 775",
+      "is_code": "IS 775",
+      "year": 1970,
+      "title": "CAST IRON BRACKETS AND SUPPORTS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 272
+    },
+    {
+      "id": "IS 782",
+      "is_code": "IS 782",
+      "year": 1978,
+      "title": "CAULKING LEAD",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 273
+    },
+    {
+      "id": "IS 804",
+      "is_code": "IS 804",
+      "year": 1967,
+      "title": "RECTANGULAR PRESSED STEEL TANKS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 274
+    },
+    {
+      "id": "IS 1700",
+      "is_code": "IS 1700",
+      "year": 1973,
+      "title": "DRINKING FOUNTAINS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 275
+    },
+    {
+      "id": "IS 2963",
+      "is_code": "IS 2963",
+      "year": 1979,
+      "title": "COPPER ALLOY WASTE FITTINGS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 276
+    },
+    {
+      "id": "IS 3489",
+      "is_code": "IS 3489",
+      "year": 1985,
+      "title": "ENAMELLED STEEL BATH TUBS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 277
+    },
+    {
+      "id": "IS 5219",
+      "is_code": "IS 5219",
+      "year": 1969,
+      "title": "CAST COPPER ALLOYS TRAPS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 280
+    },
+    {
+      "id": "IS 8718",
+      "is_code": "IS 8718",
+      "year": 1978,
+      "title": "VITREOUS ENAMELLED STEELKITCHEN SINKS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 284
+    },
+    {
+      "id": "IS 8727",
+      "is_code": "IS 8727",
+      "year": 1978,
+      "title": "VITREOUS  ENAMELLED STEEL WASH–BASINS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 285
+    },
+    {
+      "id": "IS 12701",
+      "is_code": "IS 12701",
+      "year": 1996,
+      "title": "ROTATIONAL MOULDED POLYETHYLENE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 286
+    },
+    {
+      "id": "IS 13983",
+      "is_code": "IS 13983",
+      "year": 1994,
+      "title": "STAINLESS STEELSINKS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 289
+    },
+    {
+      "id": "IS 407",
+      "is_code": "IS 407",
+      "year": 1981,
+      "title": "BRASS TUBES FORGENERAL PURPOSES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 293
+    },
+    {
+      "id": "IS 2501",
+      "is_code": "IS 2501",
+      "year": 1995,
+      "title": "SOLID DRAWN COPPER TUBES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 295
+    },
+    {
+      "id": "IS 1230",
+      "is_code": "IS 1230",
+      "year": 1979,
+      "title": "CAST IRON RAINWATER PIPES AND FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 296
+    },
+    {
+      "id": "IS 1536",
+      "is_code": "IS 1536",
+      "year": 2001,
+      "title": "CENTRIFUGALLY CAST (SPUN) IRON PRESSURE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 297
+    },
+    {
+      "id": "IS 1537",
+      "is_code": "IS 1537",
+      "year": 1976,
+      "title": "VERTICALLY CAST IRON PRESSURE PIPES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 299
+    },
+    {
+      "id": "IS 1538",
+      "is_code": "IS 1538",
+      "year": 1993,
+      "title": "CAST IRON FITTINGS FOR PRESSURE PIPES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 300
+    },
+    {
+      "id": "IS 2002",
+      "is_code": "IS 2002",
+      "year": 1979,
+      "title": "SAND CAST IRON SPIGOT AND SOCKET SOIL,",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 304
+    },
+    {
+      "id": "IS 1879",
+      "is_code": "IS 1879",
+      "year": 1987,
+      "title": "MALLEABLE CAST IRON PIPE FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 306
+    },
+    {
+      "id": "IS 3989",
+      "is_code": "IS 3989",
+      "year": 1984,
+      "title": "CENTRIFUGALLY CAST (SPUN) IRON SPIGOT AND",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 310
+    },
+    {
+      "id": "IS 5382",
+      "is_code": "IS 5382",
+      "year": 1985,
+      "title": "RUBBER SEALIG RINGS FOR GAS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 312
+    },
+    {
+      "id": "IS 5531",
+      "is_code": "IS 5531",
+      "year": 1988,
+      "title": "CAST IRON SPECIALS FOR  ASBESTOS CEMENT",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 314
+    },
+    {
+      "id": "IS 6163",
+      "is_code": "IS 6163",
+      "year": 1978,
+      "title": "CENTRIFUGALLY CAST (SPUN) IRON LOW",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 316
+    },
+    {
+      "id": "IS 6418",
+      "is_code": "IS 6418",
+      "year": 1971,
+      "title": "CAST IRON AND MALLEABLE CAST IRON",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 318
+    },
+    {
+      "id": "IS 7181",
+      "is_code": "IS 7181",
+      "year": 1986,
+      "title": "HORIZONTALLY CAST IRON DOUBLE FLANGED",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 320
+    },
+    {
+      "id": "IS 8329",
+      "is_code": "IS 8329",
+      "year": 2000,
+      "title": "CENTRIFUGALLY CAST (SPUN) DUCTILE IRON",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 321
+    },
+    {
+      "id": "IS 8794",
+      "is_code": "IS 8794",
+      "year": 1988,
+      "title": "CAST IRON DETACHABLE JOINTS  FOR USE WITH",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 323
+    },
+    {
+      "id": "IS 9523",
+      "is_code": "IS 9523",
+      "year": 2000,
+      "title": "DUCTILE IRON FITTINGS FOR PRESSURE PIPES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 324
+    },
+    {
+      "id": "IS 10292",
+      "is_code": "IS 10292",
+      "year": 1988,
+      "title": "DIMENSIONAL REQUIREMENTS FOR RUBBER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 325
+    },
+    {
+      "id": "IS 10299",
+      "is_code": "IS 10299",
+      "year": 1982,
+      "title": "CAST IRON SADDLE PIECES FOR SERVICE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 326
+    },
+    {
+      "id": "IS 12820",
+      "is_code": "IS 12820",
+      "year": 2004,
+      "title": "DIMENSIONAL REQUIREMENTS OF RUBBER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 327
+    },
+    {
+      "id": "IS 12987",
+      "is_code": "IS 12987",
+      "year": 1991,
+      "title": "CAST IRON DETACHABLE JOINTS FOR USE WITH",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 329
+    },
+    {
+      "id": "IS 12988",
+      "is_code": "IS 12988",
+      "year": 1991,
+      "title": "DIMENSIONAL REQUIREMENTS FOR RUBBER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 330
+    },
+    {
+      "id": "IS 13382",
+      "is_code": "IS 13382",
+      "year": 2004,
+      "title": "CAST IRON SPECIALS FOR MECHANICAL AND",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 331
+    },
+    {
+      "id": "IS 11925",
+      "is_code": "IS 11925",
+      "year": 1986,
+      "title": "PITCH IMPREGNATED FIBRE PIPES AND FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 333
+    },
+    {
+      "id": "IS 404 (PART 1)",
+      "is_code": "IS 404 (PART 1)",
+      "year": 1993,
+      "title": "LEAD PIPES – FOR OTHER THAN",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 335
+    },
+    {
+      "id": "IS 3076",
+      "is_code": "IS 3076",
+      "year": 1985,
+      "title": "LOW DENSITY POLYETHYLENE PIPES FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 336
+    },
+    {
+      "id": "IS 4984",
+      "is_code": "IS 4984",
+      "year": 1995,
+      "title": "HIGH DENSITY POLYETHYLENE PIPES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 338
+    },
+    {
+      "id": "IS 4985",
+      "is_code": "IS 4985",
+      "year": 2000,
+      "title": "UNPLASTICIZED PVC PIPES FOR POTABLE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 340
+    },
+    {
+      "id": "IS 7834",
+      "is_code": "IS 7834",
+      "year": 1987,
+      "title": "INJECTION MOULDED PVC SOCKET FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 342
+    },
+    {
+      "id": "IS 7834 (PART 2)",
+      "is_code": "IS 7834 (PART 2)",
+      "year": 1987,
+      "title": "INJECTION MOULDED PVC SOCKET",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 344
+    },
+    {
+      "id": "IS 7834 (PART 3)",
+      "is_code": "IS 7834 (PART 3)",
+      "year": 1987,
+      "title": "– INJECTION MOULDED PVC SOCKET",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 345
+    },
+    {
+      "id": "IS 7834 (PART 5)",
+      "is_code": "IS 7834 (PART 5)",
+      "year": 1987,
+      "title": "– INJECTION MOULDED PVC SOCKET",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 347
+    },
+    {
+      "id": "IS 7834 (PART6)",
+      "is_code": "IS 7834 (PART6)",
+      "year": 1987,
+      "title": "INJECTION MOULDING PVC SOCKET FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 348
+    },
+    {
+      "id": "IS 7834 (PART 7)",
+      "is_code": "IS 7834 (PART 7)",
+      "year": 1987,
+      "title": "INJECTION MOULDED PVC SOCKET",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 349
+    },
+    {
+      "id": "IS 7834 (PART 8)",
+      "is_code": "IS 7834 (PART 8)",
+      "year": 1987,
+      "title": "- INJECTION MOULDED PVC SOCKET",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 350
+    },
+    {
+      "id": "IS 8008 (PART 1)",
+      "is_code": "IS 8008 (PART 1)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 351
+    },
+    {
+      "id": "IS 8008 (PART 2)",
+      "is_code": "IS 8008 (PART 2)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 352
+    },
+    {
+      "id": "IS 8008 (PART 3)",
+      "is_code": "IS 8008 (PART 3)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 353
+    },
+    {
+      "id": "IS 8008 (PART 4)",
+      "is_code": "IS 8008 (PART 4)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 354
+    },
+    {
+      "id": "IS 8008 (PART 5)",
+      "is_code": "IS 8008 (PART 5)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 355
+    },
+    {
+      "id": "IS 8008 (PART 6)",
+      "is_code": "IS 8008 (PART 6)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 356
+    },
+    {
+      "id": "IS 8008 (PART 7)",
+      "is_code": "IS 8008 (PART 7)",
+      "year": 2003,
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 357
+    },
+    {
+      "id": "IS 8360 (PART 1)",
+      "is_code": "IS 8360 (PART 1)",
+      "year": 1977,
+      "title": "FABRICATED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 358
+    },
+    {
+      "id": "IS 8360 (PART 2)",
+      "is_code": "IS 8360 (PART 2)",
+      "year": 1977,
+      "title": "FABRICATED HIGH DENSITY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 359
+    },
+    {
+      "id": "IS 8360 (PART 3)",
+      "is_code": "IS 8360 (PART 3)",
+      "year": 1977,
+      "title": "FABRICATED HIGH  DENSITY POLYETHYLENE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 360
+    },
+    {
+      "id": "IS 10124 (PART2)",
+      "is_code": "IS 10124 (PART2)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTINGS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 362
+    },
+    {
+      "id": "IS 10124 (PART 3)",
+      "is_code": "IS 10124 (PART 3)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTINGS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 363
+    },
+    {
+      "id": "IS 10124 (PART 4)",
+      "is_code": "IS 10124 (PART 4)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTINGS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 365
+    },
+    {
+      "id": "IS 10124 (PART  5)",
+      "is_code": "IS 10124 (PART  5)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTINGS  FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 366
+    },
+    {
+      "id": "IS 10124 (PART 6)",
+      "is_code": "IS 10124 (PART 6)",
+      "year": 1988,
+      "title": "FABRICATED  PVC FITTINGS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 368
+    },
+    {
+      "id": "IS 10124 (PART 7)",
+      "is_code": "IS 10124 (PART 7)",
+      "year": 1988,
+      "title": "FABRICATED  PVC FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 370
+    },
+    {
+      "id": "IS 10124 (PART 8)",
+      "is_code": "IS 10124 (PART 8)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 372
+    },
+    {
+      "id": "IS 10124 (PART 9)",
+      "is_code": "IS 10124 (PART 9)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 373
+    },
+    {
+      "id": "IS 10124 (PART 10)",
+      "is_code": "IS 10124 (PART 10)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 374
+    },
+    {
+      "id": "IS 10124 (PART11)",
+      "is_code": "IS 10124 (PART11)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 375
+    },
+    {
+      "id": "IS 10124 (PART 12)",
+      "is_code": "IS 10124 (PART 12)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 376
+    },
+    {
+      "id": "IS 10124 (PART 13)",
+      "is_code": "IS 10124 (PART 13)",
+      "year": 1988,
+      "title": "FABRICATED PVC FITTING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 377
+    },
+    {
+      "id": "IS 12818",
+      "is_code": "IS 12818",
+      "year": 1992,
+      "title": "UNPLASTICISED   PVC SCREEN AND CASING",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 382
+    },
+    {
+      "id": "IS 13592",
+      "is_code": "IS 13592",
+      "year": 1992,
+      "title": "UNPLASTILIZED POLYVINYL CHLORIDE (UPVC)",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 386
+    },
+    {
+      "id": "IS 14333",
+      "is_code": "IS 14333",
+      "year": 1996,
+      "title": "HIGH DENSITY POLYETHYELENE PIPES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 389
+    },
+    {
+      "id": "IS 14402",
+      "is_code": "IS 14402",
+      "year": 1996,
+      "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 391
+    },
+    {
+      "id": "IS 14735",
+      "is_code": "IS 14735",
+      "year": 1999,
+      "title": "UNPLASTICIZED POLYVINYL CHLORIDE (UPVC)",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 394
+    },
+    {
+      "id": "IS 1239 (PART 1)",
+      "is_code": "IS 1239 (PART 1)",
+      "year": 2004,
+      "title": "STEEL TUBES, TUBULARS ANDOTHER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 397
+    },
+    {
+      "id": "IS 3589",
+      "is_code": "IS 3589",
+      "year": 2001,
+      "title": "SEAMLESS OR ELECTRICALLY WELDED STEEL",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 402
+    },
+    {
+      "id": "IS 4270",
+      "is_code": "IS 4270",
+      "year": 2001,
+      "title": "STEEL TUBES USED FOR WATER WELLS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 404
+    },
+    {
+      "id": "IS 5504",
+      "is_code": "IS 5504",
+      "year": 1997,
+      "title": "SPIRAL WELDED PIPES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 406
+    },
+    {
+      "id": "IS 6286",
+      "is_code": "IS 6286",
+      "year": 1971,
+      "title": "SEAMLESS AND WELDED STEEL PIPE FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 407
+    },
+    {
+      "id": "IS 651",
+      "is_code": "IS 651",
+      "year": 1992,
+      "title": "SALT GLAZED STONEWARE PIPES AND FITTINGS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 409
+    },
+    {
+      "id": "IS 3006",
+      "is_code": "IS 3006",
+      "year": 1979,
+      "title": "CHEMICALLY  RESISTANT GLAZED STONEWARE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 411
+    },
+    {
+      "id": "IS 771 (PART 1)",
+      "is_code": "IS 771 (PART 1)",
+      "year": 1979,
+      "title": "GLAZED FIRE–CLAY SANITARY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 413
+    },
+    {
+      "id": "IS 771  (PART 2)",
+      "is_code": "IS 771  (PART 2)",
+      "year": 1985,
+      "title": "GLAZED FIRE – CLAY SANITARY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 414
+    },
+    {
+      "id": "IS 771 (PART 5)",
+      "is_code": "IS 771 (PART 5)",
+      "year": 1979,
+      "title": "GLAZED FIRE  CLAY APPLIANCES,",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 417
+    },
+    {
+      "id": "IS 771 (PART 7)",
+      "is_code": "IS 771 (PART 7)",
+      "year": 1981,
+      "title": "GLAZED FIRE CLAY SANITARY",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 418
+    },
+    {
+      "id": "IS 772",
+      "is_code": "IS 772",
+      "year": 1973,
+      "title": "GENERAL  REQUIREMENT FOR ENAMELLED CAST",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 419
+    },
+    {
+      "id": "IS 773",
+      "is_code": "IS 773",
+      "year": 1988,
+      "title": "ENAMELLED CAST IRON WATER–CLOSETS,",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 420
+    },
+    {
+      "id": "IS 774",
+      "is_code": "IS 774",
+      "year": 2004,
+      "title": "FLUSHING CISTERNS FOR WATER-CLOSETS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 421
+    },
+    {
+      "id": "IS 1726",
+      "is_code": "IS 1726",
+      "year": 1991,
+      "title": "CAST IRON MANHOLE COVERS AND FRAMES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 423
+    },
+    {
+      "id": "IS 2326",
+      "is_code": "IS 2326",
+      "year": 1987,
+      "title": "AUTOMATIC FLUSHING CISTERNS FOR URINALS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 425
+    },
+    {
+      "id": "IS 2548 (PART 1)",
+      "is_code": "IS 2548 (PART 1)",
+      "year": 1996,
+      "title": "PLASTIC SEATS AND COVERS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 426
+    },
+    {
+      "id": "IS 2548 (PART 2)",
+      "is_code": "IS 2548 (PART 2)",
+      "year": 1996,
+      "title": "PLASTIC SEATS AND COVERS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 428
+    },
+    {
+      "id": "IS 2556 (PART 1)",
+      "is_code": "IS 2556 (PART 1)",
+      "year": 1994,
+      "title": "VITREOUS SANITARY APPLIANCES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 431
+    },
+    {
+      "id": "IS 2556 (PART 2)",
+      "is_code": "IS 2556 (PART 2)",
+      "year": 1994,
+      "title": "VITREOUS SANITARY APPLIANCES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 434
+    },
+    {
+      "id": "IS 2556 (PART 4)",
+      "is_code": "IS 2556 (PART 4)",
+      "year": 1994,
+      "title": "VITREOUS SANITARY  APLLIANCES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 438
+    },
+    {
+      "id": "IS 2556 (PART 9)",
+      "is_code": "IS 2556 (PART 9)",
+      "year": 1994,
+      "title": "VITREOUS  SANITARY APPLIANCES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 453
+    },
+    {
+      "id": "IS 2556 (PART 14)",
+      "is_code": "IS 2556 (PART 14)",
+      "year": 1994,
+      "title": "VITREOUS  SANITARY APPLIANCES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 455
+    },
+    {
+      "id": "IS 5455",
+      "is_code": "IS 5455",
+      "year": 1969,
+      "title": "CAST IRON STEPS FOR MANHOLES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 458
+    },
+    {
+      "id": "IS 5961",
+      "is_code": "IS 5961",
+      "year": 1970,
+      "title": "CAST IRON GRATING FOR DRAINAGE PURPOSES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 460
+    },
+    {
+      "id": "IS 7231",
+      "is_code": "IS 7231",
+      "year": 1994,
+      "title": "PLASTIC FLUSHING CISTERNS FOR WATER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 461
+    },
+    {
+      "id": "IS 11246",
+      "is_code": "IS 11246",
+      "year": 1992,
+      "title": "GLASS FIBRE REINFORCED POLYESTER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 463
+    },
+    {
+      "id": "IS 778",
+      "is_code": "IS 778",
+      "year": 1984,
+      "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 465
+    },
+    {
+      "id": "IS 781",
+      "is_code": "IS 781",
+      "year": 1984,
+      "title": "CASTCOPPER ALLOYSCREW DOWN BIB TAPS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 467
+    },
+    {
+      "id": "IS 1701",
+      "is_code": "IS 1701",
+      "year": 1960,
+      "title": "MIXING  VALVES FOR ABLUTIONARY AND",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 468
+    },
+    {
+      "id": "IS 1703",
+      "is_code": "IS 1703",
+      "year": 2000,
+      "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 469
+    },
+    {
+      "id": "IS 1711",
+      "is_code": "IS 1711",
+      "year": 1984,
+      "title": "SELF–CLOSING TAPS FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 470
+    },
+    {
+      "id": "IS 1795",
+      "is_code": "IS 1795",
+      "year": 1982,
+      "title": "PILLAR TAPS FOR WATER SUPPLY PURPOSES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 471
+    },
+    {
+      "id": "IS 2692",
+      "is_code": "IS 2692",
+      "year": 1989,
+      "title": "FERRULES FOR WATER SERVICES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 472
+    },
+    {
+      "id": "IS 3004",
+      "is_code": "IS 3004",
+      "year": 1979,
+      "title": "PLUG COCKS FOR WATER SUPPLY PURPOSES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 473
+    },
+    {
+      "id": "IS 3311",
+      "is_code": "IS 3311",
+      "year": 1979,
+      "title": "WASTE PLUG AND ITS ACCESSORIES FOR SINKS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 474
+    },
+    {
+      "id": "IS 4346",
+      "is_code": "IS 4346",
+      "year": 1982,
+      "title": "WASHERS  FOR USE WITH FITTINGS FOR WATER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 475
+    },
+    {
+      "id": "IS 5312 (PART 1)",
+      "is_code": "IS 5312 (PART 1)",
+      "year": 2004,
+      "title": "SWING  CHECK  TYPE  REFLUX",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 476
+    },
+    {
+      "id": "IS 5312 (PART 2)",
+      "is_code": "IS 5312 (PART 2)",
+      "year": 1986,
+      "title": "SWING  CHECK  TYPE  REFLUX",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 478
+    },
+    {
+      "id": "IS 8931",
+      "is_code": "IS 8931",
+      "year": 1993,
+      "title": "COPPER ALLOY FANCY SINGLE TAPS",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 479
+    },
+    {
+      "id": "IS 9338",
+      "is_code": "IS 9338",
+      "year": 1984,
+      "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 481
+    },
+    {
+      "id": "IS 9739",
+      "is_code": "IS 9739",
+      "year": 1981,
+      "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 483
+    },
+    {
+      "id": "IS 9758",
+      "is_code": "IS 9758",
+      "year": 1981,
+      "title": "FLUSH VALVES AND FITTINGS FOR WATER",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 484
+    },
+    {
+      "id": "IS 9762",
+      "is_code": "IS 9762",
+      "year": 1994,
+      "title": "POLYETHYLENE FLOATS (SPHERICAL)",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 485
+    },
+    {
+      "id": "IS 9763",
+      "is_code": "IS 9763",
+      "year": 2000,
+      "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 486
+    },
+    {
+      "id": "IS 12234",
+      "is_code": "IS 12234",
+      "year": 1988,
+      "title": "PLASTIC  EQUILIBRIUM  FLOAT  VALVES FOR",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 488
+    },
+    {
+      "id": "IS 13049",
+      "is_code": "IS 13049",
+      "year": 1991,
+      "title": "DIAPHRAGM TYPE (PLASTIC BODY) FLOAT",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 489
+    },
+    {
+      "id": "IS 13114",
+      "is_code": "IS 13114",
+      "year": 1991,
+      "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 490
+    },
+    {
+      "id": "IS 13349",
+      "is_code": "IS 13349",
+      "year": 1992,
+      "title": "SINGLE FACED CAST IRON THIMBLE",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 492
+    },
+    {
+      "id": "IS 14846",
+      "is_code": "IS 14846",
+      "year": 2000,
+      "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 496
+    },
+    {
+      "id": "IS 779",
+      "is_code": "IS 779",
+      "year": 1994,
+      "title": "WATER METERS (DOMESTIC  TYPE)",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 497
+    },
+    {
+      "id": "IS 2373",
+      "is_code": "IS 2373",
+      "year": 1981,
+      "title": "WATER METERS (BULK TYPE)",
+      "section": 10,
+      "section_name": "Sanitary Appliances and Water Fittings",
+      "page_start": 500
+    },
+    {
+      "id": "IS 204 (PART 1)",
+      "is_code": "IS 204 (PART 1)",
+      "year": 1991,
+      "title": "TOWER BOLTS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 504
+    },
+    {
+      "id": "IS 205",
+      "is_code": "IS 205",
+      "year": 1992,
+      "title": "NON  FERROUS METAL BUTT HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 506
+    },
+    {
+      "id": "IS 206",
+      "is_code": "IS 206",
+      "year": 1992,
+      "title": "TEE AND STRAP HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 507
+    },
+    {
+      "id": "IS 208",
+      "is_code": "IS 208",
+      "year": 1996,
+      "title": "DOOR HANDLES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 508
+    },
+    {
+      "id": "IS 281",
+      "is_code": "IS 281",
+      "year": 1991,
+      "title": "MILD STEEL SLIDING DOOR BOLTS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 509
+    },
+    {
+      "id": "IS 362",
+      "is_code": "IS 362",
+      "year": 1991,
+      "title": "PARLIAMENT HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 510
+    },
+    {
+      "id": "IS 363",
+      "is_code": "IS 363",
+      "year": 1993,
+      "title": "HASPS AND STAPLES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 511
+    },
+    {
+      "id": "IS 452",
+      "is_code": "IS 452",
+      "year": 1973,
+      "title": "DOOR SPRING RAT- TAIL TYPE",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 513
+    },
+    {
+      "id": "IS 1019",
+      "is_code": "IS 1019",
+      "year": 1974,
+      "title": "RIM LATCHES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 515
+    },
+    {
+      "id": "IS 1341",
+      "is_code": "IS 1341",
+      "year": 1992,
+      "title": "STEEL BUTT HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 516
+    },
+    {
+      "id": "IS 1823",
+      "is_code": "IS 1823",
+      "year": 1980,
+      "title": "FLOOR DOOR STOPPERS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 517
+    },
+    {
+      "id": "IS 2209",
+      "is_code": "IS 2209",
+      "year": 1976,
+      "title": "MORTICE LOCKS (VERTICAL TYPE)",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 519
+    },
+    {
+      "id": "IS 2681",
+      "is_code": "IS 2681",
+      "year": 1993,
+      "title": "NON-FERROUS METAL SLIDING DOOR BOLTS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 520
+    },
+    {
+      "id": "IS 3818",
+      "is_code": "IS 3818",
+      "year": 1992,
+      "title": "CONTINUOUS (PIANO) HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 522
+    },
+    {
+      "id": "IS 3828",
+      "is_code": "IS 3828",
+      "year": 1966,
+      "title": "VENTILATOR CHAINS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 523
+    },
+    {
+      "id": "IS 3843",
+      "is_code": "IS 3843",
+      "year": 1995,
+      "title": "STEEL BACK FLAP HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 524
+    },
+    {
+      "id": "IS 3847",
+      "is_code": "IS 3847",
+      "year": 1992,
+      "title": "MORTICE NIGHT LATCHES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 525
+    },
+    {
+      "id": "IS 4621",
+      "is_code": "IS 4621",
+      "year": 1975,
+      "title": "INDICATING BOLT FOR USE IN  PUBLIC BATHS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 526
+    },
+    {
+      "id": "IS 5187",
+      "is_code": "IS 5187",
+      "year": 1972,
+      "title": "FLUSH BOLTS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 529
+    },
+    {
+      "id": "IS 5899",
+      "is_code": "IS 5899",
+      "year": 1970,
+      "title": "BATH ROOM LATCHES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 530
+    },
+    {
+      "id": "IS 5930",
+      "is_code": "IS 5930",
+      "year": 1970,
+      "title": "MORTICE LATCH",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 531
+    },
+    {
+      "id": "IS 6315",
+      "is_code": "IS 6315",
+      "year": 1992,
+      "title": "FLOOR SPRINGS (HYDRAULICALLY  REGULATED)",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 532
+    },
+    {
+      "id": "IS 6318",
+      "is_code": "IS 6318",
+      "year": 1971,
+      "title": "PLASTIC WINDOW STAYS AND FASTENERS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 533
+    },
+    {
+      "id": "IS 6343",
+      "is_code": "IS 6343",
+      "year": 1982,
+      "title": "DOOR CLOSERS (PNEUMATICALLY REGULATED)",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 534
+    },
+    {
+      "id": "IS 6607",
+      "is_code": "IS 6607",
+      "year": 1972,
+      "title": "REBATED MORTICE LOCKS (VERTICAL TYPE)",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 535
+    },
+    {
+      "id": "IS 7196",
+      "is_code": "IS 7196",
+      "year": 1974,
+      "title": "HOLD FAST",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 536
+    },
+    {
+      "id": "IS 7197",
+      "is_code": "IS 7197",
+      "year": 1974,
+      "title": "DOUBLE ACTION  FLOOR SPRINGS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 537
+    },
+    {
+      "id": "IS 7534",
+      "is_code": "IS 7534",
+      "year": 1985,
+      "title": "SLIDING LOCKING BOLTS FOR USE WITH",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 538
+    },
+    {
+      "id": "IS 7540",
+      "is_code": "IS 7540",
+      "year": 1974,
+      "title": "MORTICE DEAD  LOCKS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 539
+    },
+    {
+      "id": "IS 8760",
+      "is_code": "IS 8760",
+      "year": 1978,
+      "title": "MORTICE  SLIDING  DOOR LOCKS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 540
+    },
+    {
+      "id": "IS 9106",
+      "is_code": "IS 9106",
+      "year": 1979,
+      "title": "RISING BUTT HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 541
+    },
+    {
+      "id": "IS 9131",
+      "is_code": "IS 9131",
+      "year": 1979,
+      "title": "RIM LOCKS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 542
+    },
+    {
+      "id": "IS 10019",
+      "is_code": "IS 10019",
+      "year": 1981,
+      "title": "MILD STEEL  STAYS  AND FASTENERS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 543
+    },
+    {
+      "id": "IS 10342",
+      "is_code": "IS 10342",
+      "year": 1982,
+      "title": "CURTAIN  RAIL SYSTEM",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 545
+    },
+    {
+      "id": "IS 12817",
+      "is_code": "IS 12817",
+      "year": 1997,
+      "title": "STAINLESS STEEL BUTT HINGES",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 546
+    },
+    {
+      "id": "IS 12867",
+      "is_code": "IS 12867",
+      "year": 1989,
+      "title": "PVC HAND RAIL COVERS",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 547
+    },
+    {
+      "id": "IS 14912",
+      "is_code": "IS 14912",
+      "year": 2001,
+      "title": "DOOR CLOSERS - CONCEALED TYPE",
+      "section": 11,
+      "section_name": "Builders Hardware",
+      "page_start": 548
+    },
+    {
+      "id": "IS 12049",
+      "is_code": "IS 12049",
+      "year": 1987,
+      "title": "DIMENSIONS AND TOLERANCES RELATING",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 552
+    },
+    {
+      "id": "IS 849",
+      "is_code": "IS 849",
+      "year": 1994,
+      "title": "COLD SETTING CASE IN GLUE FOR WOOD",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 554
+    },
+    {
+      "id": "IS 851",
+      "is_code": "IS 851",
+      "year": 1978,
+      "title": "SYNTHETIC RESIN ADHESIVES FOR CONSTRUCTION",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 555
+    },
+    {
+      "id": "IS 852",
+      "is_code": "IS 852",
+      "year": 1994,
+      "title": "ANIMAL GLUE FOR GENERAL WOOD-WORKING",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 557
+    },
+    {
+      "id": "IS 1328",
+      "is_code": "IS 1328",
+      "year": 1996,
+      "title": "VENEERED DECORATIVE PLYWOOD",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 560
+    },
+    {
+      "id": "IS 4990",
+      "is_code": "IS 4990",
+      "year": 1993,
+      "title": "PLYWOOD FOR CONCRETE SHUTTERING WORK",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 561
+    },
+    {
+      "id": "IS 5509",
+      "is_code": "IS 5509",
+      "year": 2000,
+      "title": "FIRE RETARDANT PLYWOOD",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 563
+    },
+    {
+      "id": "IS 5539",
+      "is_code": "IS 5539",
+      "year": 1969,
+      "title": "PRESERVATIVE TREATED PLYWOOD",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 564
+    },
+    {
+      "id": "IS 7316",
+      "is_code": "IS 7316",
+      "year": 1974,
+      "title": "DECORATIVE PLYWOOD USING PLURALITY",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 566
+    },
+    {
+      "id": "IS 10701",
+      "is_code": "IS 10701",
+      "year": 1983,
+      "title": "STRUCTURAL PLYWOOD",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 567
+    },
+    {
+      "id": "IS 13957",
+      "is_code": "IS 13957",
+      "year": 1994,
+      "title": "METAL FACED PLYWOOD",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 569
+    },
+    {
+      "id": "IS 1658",
+      "is_code": "IS 1658",
+      "year": 1977,
+      "title": "FIBRE HARD BOARDS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 570
+    },
+    {
+      "id": "IS 1659",
+      "is_code": "IS 1659",
+      "year": 2004,
+      "title": "BLOCK BOARDS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 571
+    },
+    {
+      "id": "IS 3087",
+      "is_code": "IS 3087",
+      "year": 1985,
+      "title": "WOOD PARTICLE BOARDS (MEDIUM DENSITY)",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 573
+    },
+    {
+      "id": "IS 3097",
+      "is_code": "IS 3097",
+      "year": 1980,
+      "title": "VENEERED PARTICLE BOARDS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 576
+    },
+    {
+      "id": "IS 3129",
+      "is_code": "IS 3129",
+      "year": 1985,
+      "title": "LOW DENSITY PARTICLE BOARDS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 578
+    },
+    {
+      "id": "IS 3308",
+      "is_code": "IS 3308",
+      "year": 1981,
+      "title": "WOOD WOOL BUILDING SLABS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 580
+    },
+    {
+      "id": "IS 3478",
+      "is_code": "IS 3478",
+      "year": 1966,
+      "title": "HIGH DENSITY WOOD PARTICLE BOARDS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 582
+    },
+    {
+      "id": "IS 12406",
+      "is_code": "IS 12406",
+      "year": 2003,
+      "title": "MEDIUM DENSITY FIBRE BOARDS FOR",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 583
+    },
+    {
+      "id": "IS 12823",
+      "is_code": "IS 12823",
+      "year": 1990,
+      "title": "WOOD PRODUCTS-PRELAMINATED",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 585
+    },
+    {
+      "id": "IS 14276",
+      "is_code": "IS 14276",
+      "year": 1995,
+      "title": "CEMENT BONDED PARTICLE BOARDS",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 587
+    },
+    {
+      "id": "IS 14587",
+      "is_code": "IS 14587",
+      "year": 1998,
+      "title": "PRE-LAMINATED MEDIUM DENSITY FIBRE",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 588
+    },
+    {
+      "id": "IS 14616",
+      "is_code": "IS 14616",
+      "year": 1999,
+      "title": "LAMINATED  VENEER LUMBER",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 599
+    },
+    {
+      "id": "IS 13958",
+      "is_code": "IS 13958",
+      "year": 1994,
+      "title": "BAMBOO MAT BOARD FOR GENERAL PURPOSES",
+      "section": 12,
+      "section_name": "Wood Products",
+      "page_start": 601
+    },
+    {
+      "id": "IS 1003 (PART 1)",
+      "is_code": "IS 1003 (PART 1)",
+      "year": 2003,
+      "title": "TIMBER PANELLED AND GLAZED",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 611
+    },
+    {
+      "id": "IS 1003 (PART 2)",
+      "is_code": "IS 1003 (PART 2)",
+      "year": 1994,
+      "title": "TIMBER PANELLED AND",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 613
+    },
+    {
+      "id": "IS 2191 (PART 1)",
+      "is_code": "IS 2191 (PART 1)",
+      "year": 1983,
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 617
+    },
+    {
+      "id": "IS 2191 (PART 2)",
+      "is_code": "IS 2191 (PART 2)",
+      "year": 1983,
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 619
+    },
+    {
+      "id": "IS 2202 (PART 1)",
+      "is_code": "IS 2202 (PART 1)",
+      "year": 1999,
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 620
+    },
+    {
+      "id": "IS 2202 (PART 2)",
+      "is_code": "IS 2202 (PART 2)",
+      "year": 1983,
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 622
+    },
+    {
+      "id": "IS 4021",
+      "is_code": "IS 4021",
+      "year": 1995,
+      "title": "TIMBER DOOR, WINDOW AND VENTILATOR",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 623
+    },
+    {
+      "id": "IS 4962",
+      "is_code": "IS 4962",
+      "year": 1968,
+      "title": "WOODEN SIDE SLIDING DOORS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 625
+    },
+    {
+      "id": "IS 6198",
+      "is_code": "IS 6198",
+      "year": 1992,
+      "title": "LEDGED, BRACED AND BATTENED TIMBER DOOR",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 626
+    },
+    {
+      "id": "IS 15380",
+      "is_code": "IS 15380",
+      "year": 2003,
+      "title": "MOULDED RAISED HIGH DENSITY FIBRE (HDF)",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 627
+    },
+    {
+      "id": "IS 1038",
+      "is_code": "IS 1038",
+      "year": 1983,
+      "title": "STEEL DOOR, WINDOWS AND VENTILATORS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 629
+    },
+    {
+      "id": "IS 1361",
+      "is_code": "IS 1361",
+      "year": 1978,
+      "title": "STEEL WINDOWS FOR INDUSTRIAL BUILDINGS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 631
+    },
+    {
+      "id": "IS 1948",
+      "is_code": "IS 1948",
+      "year": 1961,
+      "title": "ALUMINIUM DOORS, WINDOWS AND",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 633
+    },
+    {
+      "id": "IS 1949",
+      "is_code": "IS 1949",
+      "year": 1961,
+      "title": "ALUMINIUM WINDOWS FOR",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 635
+    },
+    {
+      "id": "IS 4351",
+      "is_code": "IS 4351",
+      "year": 2003,
+      "title": "STEEL DOOR FRAMES",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 637
+    },
+    {
+      "id": "IS 6248",
+      "is_code": "IS 6248",
+      "year": 1979,
+      "title": "METAL ROLLING SHUTTERS AND ROLLING",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 638
+    },
+    {
+      "id": "IS 7452",
+      "is_code": "IS 7452",
+      "year": 1990,
+      "title": "HOT ROLLED STEEL SECTIONS FOR DOORS,",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 639
+    },
+    {
+      "id": "IS 10451",
+      "is_code": "IS 10451",
+      "year": 1983,
+      "title": "STEEL SLIDING SHUTTERS",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 640
+    },
+    {
+      "id": "IS 10521",
+      "is_code": "IS 10521",
+      "year": 1983,
+      "title": "COLLAPSIBLE GATES",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 641
+    },
+    {
+      "id": "IS 14856",
+      "is_code": "IS 14856",
+      "year": 2000,
+      "title": "GLASS FIBRE REINFORCED PLASTIC (GRP)",
+      "section": 13,
+      "section_name": "Doors, Windows and Shutters",
+      "page_start": 642
+    },
+    {
+      "id": "IS 432  (PART 1)",
+      "is_code": "IS 432  (PART 1)",
+      "year": 1982,
+      "title": "MILD STEEL AND MEDIUM  TENSILE",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 648
+    },
+    {
+      "id": "IS 432 (PARTII)",
+      "is_code": "IS 432 (PARTII)",
+      "year": 1982,
+      "title": "MILD STEEL AND MEDIUM TENSILE STEEL",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 650
+    },
+    {
+      "id": "IS 1566",
+      "is_code": "IS 1566",
+      "year": 1982,
+      "title": "HARD - DRAWN  STEEL WIRE FABRIC FOR CON-",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 651
+    },
+    {
+      "id": "IS 1785 (PARTI)",
+      "is_code": "IS 1785 (PARTI)",
+      "year": 1983,
+      "title": "PLAIN HARD-DRAWN STEEL WIRE FOR",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 652
+    },
+    {
+      "id": "IS 1785 (PART 2)",
+      "is_code": "IS 1785 (PART 2)",
+      "year": 1983,
+      "title": "PLAIN HARD- DRAWNSTEEL WIRE",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 653
+    },
+    {
+      "id": "IS 1786",
+      "is_code": "IS 1786",
+      "year": 1985,
+      "title": "PLAIN HIGH STRENGTH DEFORMED STEEL BARS",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 654
+    },
+    {
+      "id": "IS 2090",
+      "is_code": "IS 2090",
+      "year": 1983,
+      "title": "HIGH TENSILE STEEL BARS USED IN",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 656
+    },
+    {
+      "id": "IS 6003",
+      "is_code": "IS 6003",
+      "year": 1983,
+      "title": "INDENTED WIRE FOR PRESTRESSED CONCRETE",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 657
+    },
+    {
+      "id": "IS 6006",
+      "is_code": "IS 6006",
+      "year": 1983,
+      "title": "UNCOATED STRESS RELIEVED STRAND FOR",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 658
+    },
+    {
+      "id": "IS 7887",
+      "is_code": "IS 7887",
+      "year": 1992,
+      "title": "MILD STEEL WIRE ROD FOR GENERAL",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 660
+    },
+    {
+      "id": "IS 13620",
+      "is_code": "IS 13620",
+      "year": 1993,
+      "title": "FUSION BONDED  EPOXY COATED",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 662
+    },
+    {
+      "id": "IS 14268",
+      "is_code": "IS 14268",
+      "year": 1995,
+      "title": "UNCOATED STRESS RELIEVED  LOW",
+      "section": 14,
+      "section_name": "Concrete Reinforcement",
+      "page_start": 663
+    },
+    {
+      "id": "IS 1977",
+      "is_code": "IS 1977",
+      "year": 1996,
+      "title": "LOW TENSILE STRUCTURAL  STEEL",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 667
+    },
+    {
+      "id": "IS 2062",
+      "is_code": "IS 2062",
+      "year": 1999,
+      "title": "STEEL FOR GENERAL STRUCTURAL PURPOSES",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 668
+    },
+    {
+      "id": "IS 8500",
+      "is_code": "IS 8500",
+      "year": 1991,
+      "title": "STRUCTURAL  STEEL- MICRO ALLOYED",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 670
+    },
+    {
+      "id": "IS 11587",
+      "is_code": "IS 11587",
+      "year": 1986,
+      "title": "STRUCTURAL WEATHER RESISTANCE STEELS",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 671
+    },
+    {
+      "id": "IS 277",
+      "is_code": "IS 277",
+      "year": 2003,
+      "title": "GALVANIZED STEEL SHEETS",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 673
+    },
+    {
+      "id": "IS 412",
+      "is_code": "IS 412",
+      "year": 1975,
+      "title": "EXPANDED METAL STEEL SHEETS FOR",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 675
+    },
+    {
+      "id": "IS 513",
+      "is_code": "IS 513",
+      "year": 1994,
+      "title": "COLD ROLLED LOW CARBON STEEL",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 677
+    },
+    {
+      "id": "IS 1079",
+      "is_code": "IS 1079",
+      "year": 1994,
+      "title": "HOT ROLLED CARBON STEEL SHEETS AND STRIPS",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 679
+    },
+    {
+      "id": "IS 3502",
+      "is_code": "IS 3502",
+      "year": 1994,
+      "title": "STEEL CHEQUERED PLATES",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 680
+    },
+    {
+      "id": "IS 7226",
+      "is_code": "IS 7226",
+      "year": 1974,
+      "title": "COLD–ROLLED MEDIUM, HIGH CARBON AND LOW",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 681
+    },
+    {
+      "id": "IS 12313",
+      "is_code": "IS 12313",
+      "year": 1988,
+      "title": "HOT–DIP TERNE COATED CARBON STEEL",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 682
+    },
+    {
+      "id": "IS 1148",
+      "is_code": "IS 1148",
+      "year": 1982,
+      "title": "HOT  ROLLED  STEEL RIVETS  BARS",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 684
+    },
+    {
+      "id": "IS 1149",
+      "is_code": "IS 1149",
+      "year": 1982,
+      "title": "HIGH  TENSILE STEEL RIVETS BARS",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 685
+    },
+    {
+      "id": "IS 1161",
+      "is_code": "IS 1161",
+      "year": 1998,
+      "title": "STEEL  TUBES FOR STRUCTURAL PURPOSES.",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 686
+    },
+    {
+      "id": "IS 4923",
+      "is_code": "IS 4923",
+      "year": 1997,
+      "title": "HOLLOW STEEL SECTIONS  FOR STRUCTURAL",
+      "section": 15,
+      "section_name": "Structural Steels",
+      "page_start": 689
+    },
+    {
+      "id": "IS 733",
+      "is_code": "IS 733",
+      "year": 1983,
+      "title": "WROUGHT ALUMINIUM AND ALUMINIUM",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 695
+    },
+    {
+      "id": "IS 736",
+      "is_code": "IS 736",
+      "year": 1986,
+      "title": "WROUGHT ALUMINIUM AND ALUMINIUM ALLOY",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 696
+    },
+    {
+      "id": "IS 737",
+      "is_code": "IS 737",
+      "year": 1986,
+      "title": "WROUGHT ALUMINIUM AND ALUMINIUM ALLOY",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 697
+    },
+    {
+      "id": "IS 738",
+      "is_code": "IS 738",
+      "year": 1994,
+      "title": "WROUGHT ALUMINIUM AND ITS ALLOYS-DRAWN",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 699
+    },
+    {
+      "id": "IS 739",
+      "is_code": "IS 739",
+      "year": 1992,
+      "title": "WROUGHT ALUMINIUM AND ALUMINIUM",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 700
+    },
+    {
+      "id": "IS 740",
+      "is_code": "IS 740",
+      "year": 1977,
+      "title": "WROUGHT ALUMINIUM ALLOY RIVET STOCK FOR",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 701
+    },
+    {
+      "id": "IS 1254",
+      "is_code": "IS 1254",
+      "year": 1991,
+      "title": "CORRUGATED ALUMINIUM SHEET",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 702
+    },
+    {
+      "id": "IS 1285",
+      "is_code": "IS 1285",
+      "year": 2002,
+      "title": "WROUGHT ALUMINIUM AND ALUMINIUM ALLOY",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 703
+    },
+    {
+      "id": "IS 2525",
+      "is_code": "IS 2525",
+      "year": 1982,
+      "title": "DIMENSION FOR WROUGHT ALUMINIUM AND",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 704
+    },
+    {
+      "id": "IS 2676",
+      "is_code": "IS 2676",
+      "year": 1981,
+      "title": "DIMENSIONS FOR WROUGHT ALUMINIUM AND",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 705
+    },
+    {
+      "id": "IS 2677",
+      "is_code": "IS 2677",
+      "year": 1979,
+      "title": "DIMENSIONS FOR  WROUGHT ALUMINIUM AND",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 706
+    },
+    {
+      "id": "IS 2678",
+      "is_code": "IS 2678",
+      "year": 1987,
+      "title": "DIMENSIONS AND  TOLERANCE FOR WROUGHT",
+      "section": 16,
+      "section_name": "Light Metal and Their Alloys",
+      "page_start": 707
+    },
+    {
+      "id": "IS 3908",
+      "is_code": "IS 3908",
+      "year": 1986,
+      "title": "ALUMINIUM EQUAL LEG ANGLES",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 711
+    },
+    {
+      "id": "IS 3909",
+      "is_code": "IS 3909",
+      "year": 1986,
+      "title": "ALUMINIUM UNEQUAL LEG ANGLES",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 712
+    },
+    {
+      "id": "IS 3921",
+      "is_code": "IS 3921",
+      "year": 1985,
+      "title": "ALUMINIUM CHANNELS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 713
+    },
+    {
+      "id": "IS 5384",
+      "is_code": "IS 5384",
+      "year": 1985,
+      "title": "ALUMINIUM   I–BEAM",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 714
+    },
+    {
+      "id": "IS 6445",
+      "is_code": "IS 6445",
+      "year": 1985,
+      "title": "ALUMINIUM TEE - SECTIONS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 715
+    },
+    {
+      "id": "IS 808",
+      "is_code": "IS 808",
+      "year": 1989,
+      "title": "DIMENSIONS FOR HOT ROLLED STEELBEAM,",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 716
+    },
+    {
+      "id": "IS 811",
+      "is_code": "IS 811",
+      "year": 1987,
+      "title": "COLD FORMED LIGHT GAUGE STRUCTURAL STEEL",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 719
+    },
+    {
+      "id": "IS 1173",
+      "is_code": "IS 1173",
+      "year": 1978,
+      "title": "HOT ROLLED AND SLIT STEEL TEE BARS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 723
+    },
+    {
+      "id": "IS 1730",
+      "is_code": "IS 1730",
+      "year": 1989,
+      "title": "STEEL  PLATES SHEETS STRIPS AND FLATS, FOR",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 724
+    },
+    {
+      "id": "IS 1732",
+      "is_code": "IS 1732",
+      "year": 1989,
+      "title": "STEEL BARS, ROUND AND SQUARE FOR",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 726
+    },
+    {
+      "id": "IS 1863",
+      "is_code": "IS 1863",
+      "year": 1979,
+      "title": "ROLLED  STEEL BULB FLATS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 727
+    },
+    {
+      "id": "IS 2314",
+      "is_code": "IS 2314",
+      "year": 1986,
+      "title": "STEEL SHEET PILLING SECTIONS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 728
+    },
+    {
+      "id": "IS 3443",
+      "is_code": "IS 3443",
+      "year": 1980,
+      "title": "CRANE RAIL SECTION",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 729
+    },
+    {
+      "id": "IS 3954",
+      "is_code": "IS 3954",
+      "year": 1991,
+      "title": "HOT ROLLED CHANNEL SECTIONS FOR GENERAL",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 730
+    },
+    {
+      "id": "IS 3964",
+      "is_code": "IS 3964",
+      "year": 1980,
+      "title": "LIGHT RAILS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 731
+    },
+    {
+      "id": "IS 8081",
+      "is_code": "IS 8081",
+      "year": 1976,
+      "title": "SLOTTED SECTIONS",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 732
+    },
+    {
+      "id": "IS 12778",
+      "is_code": "IS 12778",
+      "year": 2004,
+      "title": "HOT ROLLED PARALLEL FLANGE STEEL SECTION",
+      "section": 17,
+      "section_name": "Structural Shapes",
+      "page_start": 733
+    },
+    {
+      "id": "IS 814",
+      "is_code": "IS 814",
+      "year": 2004,
+      "title": "COVERED ELECTRODES FOR MANUAL METAL ARC",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 737
+    },
+    {
+      "id": "IS 1278",
+      "is_code": "IS 1278",
+      "year": 1972,
+      "title": "FILLER RODS FOR GAS WELDING",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 741
+    },
+    {
+      "id": "IS 1395",
+      "is_code": "IS 1395",
+      "year": 1982,
+      "title": "LOW AND MEDIUM ALLOY STEEL COVERED",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 742
+    },
+    {
+      "id": "IS 4972",
+      "is_code": "IS 4972",
+      "year": 1968,
+      "title": "RESISTANCE SPOT – WELDING ELECTRODES",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 744
+    },
+    {
+      "id": "IS 5511",
+      "is_code": "IS 5511",
+      "year": 1991,
+      "title": "COVERED ELECTRODES FOR MANUAL METAL",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 746
+    },
+    {
+      "id": "IS 5897",
+      "is_code": "IS 5897",
+      "year": 1985,
+      "title": "ALUMINIUM AND ALUMINIUM ALLOY WELDING",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 748
+    },
+    {
+      "id": "IS 5898",
+      "is_code": "IS 5898",
+      "year": 1970,
+      "title": "COPPER AND COPPER ALLOY BARE SOLID",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 749
+    },
+    {
+      "id": "IS 6560",
+      "is_code": "IS 6560",
+      "year": 1996,
+      "title": "MOLYBDENUM AND CHROMIUM-MOLYBDENUM",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 752
+    },
+    {
+      "id": "IS 7280",
+      "is_code": "IS 7280",
+      "year": 1974,
+      "title": "BARE WIRE ELECTRODES FOR SUBMERGED ARC",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 754
+    },
+    {
+      "id": "IS 8363",
+      "is_code": "IS 8363",
+      "year": 1976,
+      "title": "BARE WIRE ELECTRODES FOR ELECTROSLAG",
+      "section": 18,
+      "section_name": "Welding Electrodes and Wires",
+      "page_start": 755
+    },
+    {
+      "id": "IS 207",
+      "is_code": "IS 207",
+      "year": 1964,
+      "title": "GATE AND SHUTTER HOOKS AND EYES",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 760
+    },
+    {
+      "id": "IS 723",
+      "is_code": "IS 723",
+      "year": 1972,
+      "title": "STEEL COUNTER SUNK HEAD WIRE NAILS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 761
+    },
+    {
+      "id": "IS 724",
+      "is_code": "IS 724",
+      "year": 1964,
+      "title": "MILD STEEL AND BRASS CUP, RULER AND SQUARE",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 762
+    },
+    {
+      "id": "IS 725",
+      "is_code": "IS 725",
+      "year": 1961,
+      "title": "COPPER WIRE NAILS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 763
+    },
+    {
+      "id": "IS 730",
+      "is_code": "IS 730",
+      "year": 1978,
+      "title": "HOOK BOLTS FOR CORRUGATED SHEET ROOFING",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 764
+    },
+    {
+      "id": "IS 1120",
+      "is_code": "IS 1120",
+      "year": 1975,
+      "title": "COACH SCREW",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 765
+    },
+    {
+      "id": "IS 1363 (Part 1)",
+      "is_code": "IS 1363 (Part 1)",
+      "year": 2002,
+      "title": "ISO 4016 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 766
+    },
+    {
+      "id": "IS 1363 (PART 2)",
+      "is_code": "IS 1363 (PART 2)",
+      "year": 2002,
+      "title": "ISO 4018 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 767
+    },
+    {
+      "id": "IS 1363 (PART 3)",
+      "is_code": "IS 1363 (PART 3)",
+      "year": 2002,
+      "title": "ISO 4034 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 768
+    },
+    {
+      "id": "IS 1364 (Part 1)",
+      "is_code": "IS 1364 (Part 1)",
+      "year": 2002,
+      "title": "ISO 4014 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 769
+    },
+    {
+      "id": "IS 1364 (PART 2)",
+      "is_code": "IS 1364 (PART 2)",
+      "year": 2002,
+      "title": "ISO 4017 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 770
+    },
+    {
+      "id": "IS 1364 (Part 3)",
+      "is_code": "IS 1364 (Part 3)",
+      "year": 2002,
+      "title": "ISO 4032 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 771
+    },
+    {
+      "id": "IS 1364 (PART 4)",
+      "is_code": "IS 1364 (PART 4)",
+      "year": 2003,
+      "title": "ISO 4035 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 772
+    },
+    {
+      "id": "IS 1364 (PART 5)",
+      "is_code": "IS 1364 (PART 5)",
+      "year": 2002,
+      "title": "ISO 4036 : 1999",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 773
+    },
+    {
+      "id": "IS 1365",
+      "is_code": "IS 1365",
+      "year": 1978,
+      "title": "SLOTTED COUNTERSUNK HEAD SCREWS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 774
+    },
+    {
+      "id": "IS 1366",
+      "is_code": "IS 1366",
+      "year": 2002,
+      "title": "ISO 1207 - 1992 SLOTTED",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 775
+    },
+    {
+      "id": "IS 1929",
+      "is_code": "IS 1929",
+      "year": 1982,
+      "title": "HOT FORGED STEEL RIVETS FOR HOT CLOSING",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 776
+    },
+    {
+      "id": "IS 2016",
+      "is_code": "IS 2016",
+      "year": 1967,
+      "title": "PLAIN WASHERS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 777
+    },
+    {
+      "id": "IS 2155",
+      "is_code": "IS 2155",
+      "year": 1982,
+      "title": "COLD FORGED SOLID STEEL RIVETS FOR HOT",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 779
+    },
+    {
+      "id": "IS 2585",
+      "is_code": "IS 2585",
+      "year": 1968,
+      "title": "BLACK SQUARE BOLTS AND NUTS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 780
+    },
+    {
+      "id": "IS 2687",
+      "is_code": "IS 2687",
+      "year": 1991,
+      "title": "CAP NUTS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 781
+    },
+    {
+      "id": "IS 2907",
+      "is_code": "IS 2907",
+      "year": 1998,
+      "title": "NON-FERROUS RIVETS (1.6 TO 10 mm)",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 782
+    },
+    {
+      "id": "IS 2998",
+      "is_code": "IS 2998",
+      "year": 1982,
+      "title": "COLD FORGED STEEL RIVETS FOR COLD",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 783
+    },
+    {
+      "id": "IS 3063",
+      "is_code": "IS 3063",
+      "year": 1994,
+      "title": "FASTENERS-SINGLE COIL RECTANGULAR",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 784
+    },
+    {
+      "id": "IS 3121",
+      "is_code": "IS 3121",
+      "year": 1981,
+      "title": "RIGGING SCREWS AND STRETCHING SCREWS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 785
+    },
+    {
+      "id": "IS 3468",
+      "is_code": "IS 3468",
+      "year": 1991,
+      "title": "PIPE NUTS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 786
+    },
+    {
+      "id": "IS 3757",
+      "is_code": "IS 3757",
+      "year": 1985,
+      "title": "HIGH STRENGTH STRUCTURAL BOLTS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 787
+    },
+    {
+      "id": "IS 4762",
+      "is_code": "IS 4762",
+      "year": 1984,
+      "title": "WORM DRIVE CLAMPS FOR GENERAL PURPOSE",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 788
+    },
+    {
+      "id": "IS 5369",
+      "is_code": "IS 5369",
+      "year": 1975,
+      "title": "GENERAL REQUIREMENTS FOR PLAIN WASHERS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 789
+    },
+    {
+      "id": "IS 5372",
+      "is_code": "IS 5372",
+      "year": 1975,
+      "title": "TAPER WASHERS FOR CHANNELS (ISMC)",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 790
+    },
+    {
+      "id": "IS 5373",
+      "is_code": "IS 5373",
+      "year": 1969,
+      "title": "SQUARE WASHERS FOR WOOD FASTENINGS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 791
+    },
+    {
+      "id": "IS 5374",
+      "is_code": "IS 5374",
+      "year": 1975,
+      "title": "TAPER WASHERS FOR I-BEAMS (ISMB)",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 792
+    },
+    {
+      "id": "IS 5624",
+      "is_code": "IS 5624",
+      "year": 1993,
+      "title": "FOUNDATION BOLTS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 793
+    },
+    {
+      "id": "IS 6113",
+      "is_code": "IS 6113",
+      "year": 1970,
+      "title": "ALUMINIUM FASTENERS FOR BUILDING",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 794
+    },
+    {
+      "id": "IS 6610",
+      "is_code": "IS 6610",
+      "year": 1972,
+      "title": "HEAVY WASHERS FOR STEEL STRUCTURES",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 795
+    },
+    {
+      "id": "IS 6623",
+      "is_code": "IS 6623",
+      "year": 2004,
+      "title": "HIGH STRENGTH STRUCTURAL NUTS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 796
+    },
+    {
+      "id": "IS 6639",
+      "is_code": "IS 6639",
+      "year": 1972,
+      "title": "HEXAGON BOLTS FOR STEEL STRUCTURES",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 797
+    },
+    {
+      "id": "IS 6649",
+      "is_code": "IS 6649",
+      "year": 1985,
+      "title": "HARDENED AND TEMPERED WASHERS FOR HIGH",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 798
+    },
+    {
+      "id": "IS 6733",
+      "is_code": "IS 6733",
+      "year": 1972,
+      "title": "WALL AND ROOFING NAILS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 799
+    },
+    {
+      "id": "IS 6736",
+      "is_code": "IS 6736",
+      "year": 1972,
+      "title": "SLOTTED RAISED COUNTERSUNK HEAD",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 800
+    },
+    {
+      "id": "IS 6739",
+      "is_code": "IS 6739",
+      "year": 1972,
+      "title": "SLOTTED ROUND HEAD WOOD SCREWS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 801
+    },
+    {
+      "id": "IS 6760",
+      "is_code": "IS 6760",
+      "year": 1972,
+      "title": "SLOTTED COUNTERSUNK HEAD WOOD SCREWS",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 802
+    },
+    {
+      "id": "IS 8033",
+      "is_code": "IS 8033",
+      "year": 1976,
+      "title": "WASHERS WITH SQUARE HOLE FOR WOOD",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 803
+    },
+    {
+      "id": "IS 8412",
+      "is_code": "IS 8412",
+      "year": 1977,
+      "title": "SLOTTED COUNTERSUNK HEAD BOLTS FOR",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 804
+    },
+    {
+      "id": "IS 8869",
+      "is_code": "IS 8869",
+      "year": 1978,
+      "title": "WASHERS FOR CORRUGATED SHEET ROOFING",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 805
+    },
+    {
+      "id": "IS 10238",
+      "is_code": "IS 10238",
+      "year": 2001,
+      "title": "FASTENERS – THREADED STEEL",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 806
+    },
+    {
+      "id": "IS 12427",
+      "is_code": "IS 12427",
+      "year": 2001,
+      "title": "FASTENERS – THREADED STEEL",
+      "section": 19,
+      "section_name": "Threaded Fasteners and Rivets",
+      "page_start": 807
+    },
+    {
+      "id": "IS 278",
+      "is_code": "IS 278",
+      "year": 1978,
+      "title": "GALVANIZED STEEL BARBED WIRE FOR FENCING",
+      "section": 20,
+      "section_name": "Wire Ropes and Wire Products",
+      "page_start": 811
+    },
+    {
+      "id": "IS 2140",
+      "is_code": "IS 2140",
+      "year": 1978,
+      "title": "STRANDED GALVANIZED STEEL WIRE FOR",
+      "section": 20,
+      "section_name": "Wire Ropes and Wire Products",
+      "page_start": 812
+    },
+    {
+      "id": "IS 2365",
+      "is_code": "IS 2365",
+      "year": 1977,
+      "title": "STEEL WIRE SUSPENSION ROPES FOR LIFTS,",
+      "section": 20,
+      "section_name": "Wire Ropes and Wire Products",
+      "page_start": 813
+    },
+    {
+      "id": "IS 2721",
+      "is_code": "IS 2721",
+      "year": 1979,
+      "title": "GALVANIZED STEEL CHAIN  LINK FENCE  FABRIC",
+      "section": 20,
+      "section_name": "Wire Ropes and Wire Products",
+      "page_start": 814
+    },
+    {
+      "id": "IS 2835",
+      "is_code": "IS 2835",
+      "year": 1987,
+      "title": "FLAT TRANSPARENT SHEET GLASS",
+      "section": 21,
+      "section_name": "Glass",
+      "page_start": 821
+    },
+    {
+      "id": "IS 3438",
+      "is_code": "IS 3438",
+      "year": 1994,
+      "title": "SILVERED GLASS MIRRORS FOR GENERAL",
+      "section": 21,
+      "section_name": "Glass",
+      "page_start": 823
+    },
+    {
+      "id": "IS 5437",
+      "is_code": "IS 5437",
+      "year": 1994,
+      "title": "FIGURED, ROLLED AND WIRED GLASS",
+      "section": 21,
+      "section_name": "Glass",
+      "page_start": 824
+    },
+    {
+      "id": "IS 110",
+      "is_code": "IS 110",
+      "year": 1983,
+      "title": "READY MIXED PAINT, BRUSHING, GREY FILLER,",
+      "section": 22,
+      "section_name": "Fillers, Stoppers and Putties",
+      "page_start": 827
+    },
+    {
+      "id": "IS 419",
+      "is_code": "IS 419",
+      "year": 1967,
+      "title": "PUTTY, FOR USE ON WINDOW FRAMES",
+      "section": 22,
+      "section_name": "Fillers, Stoppers and Putties",
+      "page_start": 828
+    },
+    {
+      "id": "IS 423",
+      "is_code": "IS 423",
+      "year": 1961,
+      "title": "PLASTIC WOOD FOR JOINERS FILLER",
+      "section": 22,
+      "section_name": "Fillers, Stoppers and Putties",
+      "page_start": 829
+    },
+    {
+      "id": "IS 3709",
+      "is_code": "IS 3709",
+      "year": 1966,
+      "title": "MASTIC CEMENT FOR BEDDING OF",
+      "section": 22,
+      "section_name": "Fillers, Stoppers and Putties",
+      "page_start": 830
+    },
+    {
+      "id": "IS 3677",
+      "is_code": "IS 3677",
+      "year": 1985,
+      "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 833
+    },
+    {
+      "id": "IS 4671",
+      "is_code": "IS 4671",
+      "year": 1984,
+      "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 835
+    },
+    {
+      "id": "IS 6598",
+      "is_code": "IS 6598",
+      "year": 1972,
+      "title": "CELLULAR CONCRETE FOR THERMAL INSULATION",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 837
+    },
+    {
+      "id": "IS 7509",
+      "is_code": "IS 7509",
+      "year": 1993,
+      "title": "THERMAL INSULATING CEMENT",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 838
+    },
+    {
+      "id": "IS 8154",
+      "is_code": "IS 8154",
+      "year": 1993,
+      "title": "PREORMED CALCIUM SILICATE INSULATION",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 839
+    },
+    {
+      "id": "IS 8183",
+      "is_code": "IS 8183",
+      "year": 1993,
+      "title": "BONDED MINERAL WOOL",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 841
+    },
+    {
+      "id": "IS 9428",
+      "is_code": "IS 9428",
+      "year": 1993,
+      "title": "PREFORMED CALCIUM SILICATE INSULATION",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 843
+    },
+    {
+      "id": "IS 9742",
+      "is_code": "IS 9742",
+      "year": 1993,
+      "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 845
+    },
+    {
+      "id": "IS 9743",
+      "is_code": "IS 9743",
+      "year": 1990,
+      "title": "THERMAL INSULATION FINISHING CEMENTS",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 846
+    },
+    {
+      "id": "IS 9842",
+      "is_code": "IS 9842",
+      "year": 1994,
+      "title": "PREFORMED FIBROUS PIPE INSULATION",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 848
+    },
+    {
+      "id": "IS 11128",
+      "is_code": "IS 11128",
+      "year": 1984,
+      "title": "SPRAY – APPLIED HYDRATED CALCIUM SILICATE",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 850
+    },
+    {
+      "id": "IS 11307",
+      "is_code": "IS 11307",
+      "year": 1985,
+      "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 851
+    },
+    {
+      "id": "IS 11308",
+      "is_code": "IS 11308",
+      "year": 1985,
+      "title": "HYDRAULIC SETTING THERMAL INSULATING",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 852
+    },
+    {
+      "id": "IS 12436",
+      "is_code": "IS 12436",
+      "year": 1988,
+      "title": "PREFORMED RIGID POLYURETHANE (PUR) AND",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 853
+    },
+    {
+      "id": "IS 13204",
+      "is_code": "IS 13204",
+      "year": 1991,
+      "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+      "section": 23,
+      "section_name": "Thermal Insulation Materials",
+      "page_start": 855
+    },
+    {
+      "id": "IS 2036",
+      "is_code": "IS 2036",
+      "year": 1995,
+      "title": "PHENOLIC LAMINATED SHEETS",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 859
+    },
+    {
+      "id": "IS 2046",
+      "is_code": "IS 2046",
+      "year": 1995,
+      "title": "DECORATIVE THERMOSETTING SYNTHETIC",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 861
+    },
+    {
+      "id": "IS 2508",
+      "is_code": "IS 2508",
+      "year": 1984,
+      "title": "LOW DENSITY POLYTHYLENE FILMS",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 864
+    },
+    {
+      "id": "IS 6307",
+      "is_code": "IS 6307",
+      "year": 1985,
+      "title": "RIGID PVC SHEETS",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 866
+    },
+    {
+      "id": "IS 10889",
+      "is_code": "IS 10889",
+      "year": 1984,
+      "title": "HIGH DENSITY POLYTHYLENE FILM",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 867
+    },
+    {
+      "id": "IS 12830",
+      "is_code": "IS 12830",
+      "year": 1989,
+      "title": "RUBBER BASED ADHESIVE FOR FIXING PVC",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 869
+    },
+    {
+      "id": "IS 12994",
+      "is_code": "IS 12994",
+      "year": 1990,
+      "title": "EPOXY ADHESIVES, ROOM TEMPERATURE",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 870
+    },
+    {
+      "id": "IS 14182",
+      "is_code": "IS 14182",
+      "year": 1994,
+      "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 871
+    },
+    {
+      "id": "IS 14443",
+      "is_code": "IS 14443",
+      "year": 1997,
+      "title": "POLYCARBONATE SHEETS",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 873
+    },
+    {
+      "id": "IS 14643",
+      "is_code": "IS 14643",
+      "year": 1999,
+      "title": "UNSINTERED POLYTETRAFLUOROETHYLENE",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 875
+    },
+    {
+      "id": "IS 14753",
+      "is_code": "IS 14753",
+      "year": 1999,
+      "title": "POLYMETHYL METHACRYLATE (PMMA)",
+      "section": 24,
+      "section_name": "Plastics",
+      "page_start": 876
+    },
+    {
+      "id": "IS 694",
+      "is_code": "IS 694",
+      "year": 1990,
+      "title": "PVC INSULATED CABLE FOR WORKING VOLTAGES",
+      "section": 25,
+      "section_name": "Conductors and Cables",
+      "page_start": 881
+    },
+    {
+      "id": "IS 1554 (PART 1)",
+      "is_code": "IS 1554 (PART 1)",
+      "year": 1988,
+      "title": "PVC INSULATED (HEAVY DUTY)",
+      "section": 25,
+      "section_name": "Conductors and Cables",
+      "page_start": 884
+    },
+    {
+      "id": "IS 7098 (PART 1)",
+      "is_code": "IS 7098 (PART 1)",
+      "year": 1988,
+      "title": "CROSSLINKED POLYETHYLENE",
+      "section": 25,
+      "section_name": "Conductors and Cables",
+      "page_start": 886
+    },
+    {
+      "id": "IS 9968 (PART 1)",
+      "is_code": "IS 9968 (PART 1)",
+      "year": 1998,
+      "title": "ELASTOMER INSULATED CABLES,",
+      "section": 25,
+      "section_name": "Conductors and Cables",
+      "page_start": 888
+    },
+    {
+      "id": "IS 1293",
+      "is_code": "IS 1293",
+      "year": 1988,
+      "title": "PLUGS AND SOCKET-OUTLETS – RATED",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 895
+    },
+    {
+      "id": "IS 2086",
+      "is_code": "IS 2086",
+      "year": 1993,
+      "title": "CARRIERS AND BASES USED IN REWIRABLE TYPE",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 897
+    },
+    {
+      "id": "IS 2412",
+      "is_code": "IS 2412",
+      "year": 1975,
+      "title": "LINK CLIPS FOR ELECTRICAL WIRING",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 899
+    },
+    {
+      "id": "IS 3419",
+      "is_code": "IS 3419",
+      "year": 1989,
+      "title": "FITTINGS FOR RIGID NON-METALLIC CONDUITS",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 902
+    },
+    {
+      "id": "IS 3480",
+      "is_code": "IS 3480",
+      "year": 1966,
+      "title": "FLEXIBLE STEEL CONDUITS FOR",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 903
+    },
+    {
+      "id": "IS 3837",
+      "is_code": "IS 3837",
+      "year": 1976,
+      "title": "ACCESSORIES FOR RIGID STEEL CONDUITS FOR",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 904
+    },
+    {
+      "id": "IS 3854",
+      "is_code": "IS 3854",
+      "year": 1997,
+      "title": "SWITCHES FOR DOMESTIC AND SIMILAR",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 905
+    },
+    {
+      "id": "IS 4160",
+      "is_code": "IS 4160",
+      "year": 1967,
+      "title": "INTERLOCKING SWITCH SOCKET OUTLET",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 907
+    },
+    {
+      "id": "IS 4615",
+      "is_code": "IS 4615",
+      "year": 1968,
+      "title": "SWITCH SOCKET-OUTLETS",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 909
+    },
+    {
+      "id": "IS 4649",
+      "is_code": "IS 4649",
+      "year": 1968,
+      "title": "ADAPTORS FOR FLEXIBLE STEEL CONDUITS",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 911
+    },
+    {
+      "id": "IS 6538",
+      "is_code": "IS 6538",
+      "year": 1971,
+      "title": "THREE-PIN PLUGS MADE OF RESILIENTMATERIAL",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 912
+    },
+    {
+      "id": "IS 9537 (PART 1)",
+      "is_code": "IS 9537 (PART 1)",
+      "year": 1980,
+      "title": "CONDUITS FOR ELECTRICAL",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 917
+    },
+    {
+      "id": "IS 9537(PART II)",
+      "is_code": "IS 9537(PART II)",
+      "year": 1981,
+      "title": "CONDUITS FOR ELECTRICAL WIRING",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 919
+    },
+    {
+      "id": "IS 9537 (PART 3)",
+      "is_code": "IS 9537 (PART 3)",
+      "year": 1983,
+      "title": "CONDUITS FOR ELECTRICAL",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 920
+    },
+    {
+      "id": "IS 9537 (PART 4)",
+      "is_code": "IS 9537 (PART 4)",
+      "year": 1983,
+      "title": "CONDUITS FOR ELECTRICAL",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 921
+    },
+    {
+      "id": "IS 9537 (PART 5)",
+      "is_code": "IS 9537 (PART 5)",
+      "year": 2000,
+      "title": "CONDUITS FOR ELECTRICAL",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 922
+    },
+    {
+      "id": "IS 14772",
+      "is_code": "IS 14772",
+      "year": 2000,
+      "title": "GENERAL REQUIREMENTS FOR ENCLOSURES",
+      "section": 26,
+      "section_name": "Wiring Accessories",
+      "page_start": 923
+    },
+    {
+      "id": "IS 875 (PART 1)",
+      "is_code": "IS 875 (PART 1)",
+      "year": 1987,
+      "title": "CODE OF PRACTICE FOR DESIGN  LOADS",
+      "section": 27,
+      "section_name": "General",
+      "page_start": 927
+    }
+  ],
+  "edges": [
+    {
+      "source": "IS 383",
+      "target": "IS 2116",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9142",
+      "target": "IS 2185 (PART 2)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9142",
+      "target": "IS 2686",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1489 (PART1)",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1489 (PART 2)",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6909",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8041",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8042",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8043",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8112",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6523",
+      "target": "IS 4021",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9893",
+      "target": "IS 269",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9893",
+      "target": "IS 8041",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9893",
+      "target": "IS 8112",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13990",
+      "target": "IS 2180",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13990",
+      "target": "IS 432  (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14143",
+      "target": "IS 432  (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14201",
+      "target": "IS 432  (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14241",
+      "target": "IS 432  (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1626 (PART 2)",
+      "target": "IS 459",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1626",
+      "target": "IS 13000",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9627",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9627",
+      "target": "IS 8794",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 10360",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 10772",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 12894",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 2686",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 3068",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 3115",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 3182",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 4098",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 4139",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12118 (PART 1)",
+      "target": "IS 712",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2686",
+      "target": "IS 1077",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3115",
+      "target": "IS 1077",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3115",
+      "target": "IS 2185 (PART  1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3115",
+      "target": "IS 3068",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3115",
+      "target": "IS 3182",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4098",
+      "target": "IS 4139",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10360",
+      "target": "IS 2690 (PART 2)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10772",
+      "target": "IS 4098",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 1127",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 1128",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 1130",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 14223 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 3316",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 3620",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 3622",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 4139",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 6250",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 6579",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12894",
+      "target": "IS 9394",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1127",
+      "target": "IS 1128",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1130",
+      "target": "IS 3316",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3622",
+      "target": "IS 6250",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6250",
+      "target": "IS 1077",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6579",
+      "target": "IS 9394",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 1077",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 13757",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 1464",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 1478",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 2180",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 2222",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 2691",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 3367",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 3583",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 3952",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 4885",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 5779",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 6165",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 654",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14223 (PART 1)",
+      "target": "IS 7556",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1077",
+      "target": "IS 2180",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2180",
+      "target": "IS 2222",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2222",
+      "target": "IS 2691",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2691",
+      "target": "IS 3583",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3583",
+      "target": "IS 3952",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4885",
+      "target": "IS 5779",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5779",
+      "target": "IS 6165",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6165",
+      "target": "IS 1077",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6165",
+      "target": "IS 13757",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6165",
+      "target": "IS 2180",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13757",
+      "target": "IS 7556",
+      "relation": "references"
+    },
+    {
+      "source": "IS 654",
+      "target": "IS 1464",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1464",
+      "target": "IS 1478",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1478",
+      "target": "IS 2690 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2690 (PART 2)",
+      "target": "IS 3367",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3367",
+      "target": "IS 3951 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3951 (PART 1)",
+      "target": "IS 3951 (PART 2)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3951 (PART 2)",
+      "target": "IS 2547 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3951 (PART 2)",
+      "target": "IS 2849",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3951 (PART 2)",
+      "target": "IS 8272",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2849",
+      "target": "IS 8272",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 10394",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 1326",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 190",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 2372",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 3337",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 3629",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 3731",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 399",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 4895",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 5246",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 6056",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 7308",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8272",
+      "target": "IS 876",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 212",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 215",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 216",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 218",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 3117",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 454",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 73",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10394",
+      "target": "IS 8887",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 1195",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 1237",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 12866",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 13026",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 13753",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 13754",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 13755",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 13756",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 14862",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 1542",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 2116",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 3461",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 3462",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 4457",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 4860",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 5317",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 638",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 653",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 809",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 8374",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8887",
+      "target": "IS 9197",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1237",
+      "target": "IS 1542",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1542",
+      "target": "IS 2116",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4832 (PART 1)",
+      "target": "IS 4832 (PART 2)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4860",
+      "target": "IS 1237",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8374",
+      "target": "IS 13026",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8374",
+      "target": "IS 383",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8374",
+      "target": "IS 73",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9197",
+      "target": "IS 1254",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9197",
+      "target": "IS 383",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9197",
+      "target": "IS 459",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12866",
+      "target": "IS 459",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 12027",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 1322",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 14695",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 1580",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 2645",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 3037",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 3384",
+      "relation": "references"
+    },
+    {
+      "source": "IS 809",
+      "target": "IS 5871",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1322",
+      "target": "IS 1580",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 10292",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 10299",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 11246",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 11925",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 12234",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 12701",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 12818",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 12820",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 12987",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 12988",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 13049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 13114",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 13349",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 13382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 13592",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 13983",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 14333",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 14402",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 14735",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 14846",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1536",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1537",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1538",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1700",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1701",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1703",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1711",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1726",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1795",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 1879",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 2326",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 2373",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 2501",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 2692",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 2963",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3004",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3006",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3076",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3311",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3489",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3589",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 3989",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 404 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 407",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 4270",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 4346",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 4984",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 4985",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 5455",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 5504",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 5531",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 5961",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 6163",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 6286",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 638",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 6418",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 651",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 7181",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 7231",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 772",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 773",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 774",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 775",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 778",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 779",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 781",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 782",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 7834",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 804",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 8329",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 8718",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 8727",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 8794",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 8931",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 9338",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 9523",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 9739",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 9758",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 9762",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14695",
+      "target": "IS 9763",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8718",
+      "target": "IS 772",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8727",
+      "target": "IS 772",
+      "relation": "references"
+    },
+    {
+      "source": "IS 407",
+      "target": "IS 2501",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1536",
+      "target": "IS 1537",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6418",
+      "target": "IS 7181",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8329",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8329",
+      "target": "IS 638",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9523",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9523",
+      "target": "IS 8794",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10292",
+      "target": "IS 10299",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10299",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12820",
+      "target": "IS 9627",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12987",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 11925",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7834",
+      "target": "IS 4985",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7834 (PART6)",
+      "target": "IS 7834 (PART 7)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7834 (PART 8)",
+      "target": "IS 4984",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 1)",
+      "target": "IS 4984",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 1)",
+      "target": "IS 8008 (PART 2)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 2)",
+      "target": "IS 8008 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 3)",
+      "target": "IS 8008 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 4)",
+      "target": "IS 8008 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 6)",
+      "target": "IS 8008 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8008 (PART 7)",
+      "target": "IS 4984",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8360 (PART 1)",
+      "target": "IS 4984",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8360 (PART 1)",
+      "target": "IS 8360 (PART 2)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8360 (PART 2)",
+      "target": "IS 8360 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8360 (PART 3)",
+      "target": "IS 4985",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8360 (PART 3)",
+      "target": "IS 8360 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10124 (PART 13)",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13592",
+      "target": "IS 6307",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14402",
+      "target": "IS 13592",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14735",
+      "target": "IS 5382",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14735",
+      "target": "IS 6307",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1239 (PART 1)",
+      "target": "IS 3468",
+      "relation": "references"
+    },
+    {
+      "source": "IS 773",
+      "target": "IS 772",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2548 (PART 2)",
+      "target": "IS 2548 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5455",
+      "target": "IS 5961",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5961",
+      "target": "IS 1726",
+      "relation": "references"
+    },
+    {
+      "source": "IS 778",
+      "target": "IS 781",
+      "relation": "references"
+    },
+    {
+      "source": "IS 781",
+      "target": "IS 1701",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1701",
+      "target": "IS 9762",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3004",
+      "target": "IS 2556 (PART 4)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3004",
+      "target": "IS 2963",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3311",
+      "target": "IS 4346",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9739",
+      "target": "IS 9758",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13349",
+      "target": "IS 14846",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 10019",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 1019",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 10342",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 12817",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 12867",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 1341",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 14912",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 1823",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 204 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 205",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 206",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 208",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 2209",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 281",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 362",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 363",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 3818",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 3828",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 3843",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 3847",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 452",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 4621",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 5187",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 5899",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 5930",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 6315",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 6318",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 6343",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 6607",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 7196",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 7197",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 7534",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 7540",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 8760",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 9106",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2373",
+      "target": "IS 9131",
+      "relation": "references"
+    },
+    {
+      "source": "IS 204 (PART 1)",
+      "target": "IS 205",
+      "relation": "references"
+    },
+    {
+      "source": "IS 205",
+      "target": "IS 206",
+      "relation": "references"
+    },
+    {
+      "source": "IS 206",
+      "target": "IS 208",
+      "relation": "references"
+    },
+    {
+      "source": "IS 208",
+      "target": "IS 281",
+      "relation": "references"
+    },
+    {
+      "source": "IS 281",
+      "target": "IS 362",
+      "relation": "references"
+    },
+    {
+      "source": "IS 362",
+      "target": "IS 363",
+      "relation": "references"
+    },
+    {
+      "source": "IS 363",
+      "target": "IS 452",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2209",
+      "target": "IS 2681",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2681",
+      "target": "IS 3818",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3818",
+      "target": "IS 3828",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3828",
+      "target": "IS 3843",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3843",
+      "target": "IS 3847",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3847",
+      "target": "IS 4621",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4621",
+      "target": "IS 2209",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4621",
+      "target": "IS 5187",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6607",
+      "target": "IS 7196",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7197",
+      "target": "IS 7534",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7534",
+      "target": "IS 7540",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8760",
+      "target": "IS 9106",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9106",
+      "target": "IS 9131",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9131",
+      "target": "IS 10019",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10342",
+      "target": "IS 12817",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12817",
+      "target": "IS 12867",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12867",
+      "target": "IS 14912",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 10701",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 12406",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 12823",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 1328",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 13957",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 13958",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 14276",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 14587",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 1658",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 1659",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 3087",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 3097",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 3129",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 3308",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 3478",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 4990",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 5509",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 7316",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 849",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 851",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14912",
+      "target": "IS 852",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1328",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4990",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5509",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5539",
+      "target": "IS 1328",
+      "relation": "references"
+    },
+    {
+      "source": "IS 10701",
+      "target": "IS 5539",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13957",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13957",
+      "target": "IS 737",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12406",
+      "target": "IS 3087",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12823",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14276",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14276",
+      "target": "IS 8112",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13958",
+      "target": "IS 12049",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13958",
+      "target": "IS 15380",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13958",
+      "target": "IS 2191 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1003 (PART 1)",
+      "target": "IS 12896",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1003 (PART 2)",
+      "target": "IS 399",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2191 (PART 2)",
+      "target": "IS 2191 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4021",
+      "target": "IS 12896",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6198",
+      "target": "IS 12896",
+      "relation": "references"
+    },
+    {
+      "source": "IS 15380",
+      "target": "IS 2835",
+      "relation": "references"
+    },
+    {
+      "source": "IS 15380",
+      "target": "IS 7452",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 13620",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 14268",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 1566",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 1786",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 2090",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 6003",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 6006",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14856",
+      "target": "IS 7887",
+      "relation": "references"
+    },
+    {
+      "source": "IS 432  (PART 1)",
+      "target": "IS 2062",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1786",
+      "target": "IS 2090",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7887",
+      "target": "IS 13620",
+      "relation": "references"
+    },
+    {
+      "source": "IS 7887",
+      "target": "IS 1786",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 1079",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 1148",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 1149",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 11587",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 1161",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 12313",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 1977",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 2062",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 277",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 3502",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 412",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 4923",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 513",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 7226",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 7887",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14268",
+      "target": "IS 8500",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2062",
+      "target": "IS 8500",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1079",
+      "target": "IS 1730",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1079",
+      "target": "IS 1977",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1079",
+      "target": "IS 3502",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1149",
+      "target": "IS 1148",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 1254",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 1285",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 2525",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 2676",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 2677",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 2678",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 733",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 736",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 737",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 738",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 739",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4923",
+      "target": "IS 740",
+      "relation": "references"
+    },
+    {
+      "source": "IS 733",
+      "target": "IS 2677",
+      "relation": "references"
+    },
+    {
+      "source": "IS 736",
+      "target": "IS 2676",
+      "relation": "references"
+    },
+    {
+      "source": "IS 736",
+      "target": "IS 2677",
+      "relation": "references"
+    },
+    {
+      "source": "IS 737",
+      "target": "IS 2678",
+      "relation": "references"
+    },
+    {
+      "source": "IS 738",
+      "target": "IS 2525",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1254",
+      "target": "IS 2676",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 1173",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 12778",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 1730",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 1732",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 1863",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 2314",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 3443",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 3908",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 3909",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 3921",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 3954",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 3964",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 5384",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 6445",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 8081",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 808",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2678",
+      "target": "IS 811",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3908",
+      "target": "IS 3909",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3908",
+      "target": "IS 733",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3909",
+      "target": "IS 733",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5384",
+      "target": "IS 733",
+      "relation": "references"
+    },
+    {
+      "source": "IS 811",
+      "target": "IS 1079",
+      "relation": "references"
+    },
+    {
+      "source": "IS 811",
+      "target": "IS 513",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1863",
+      "target": "IS 8500",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2314",
+      "target": "IS 8500",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3443",
+      "target": "IS 3954",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 1278",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 1395",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 4972",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 5511",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 5897",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 5898",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 6560",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 7280",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 814",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12778",
+      "target": "IS 8363",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5511",
+      "target": "IS 5897",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5897",
+      "target": "IS 5898",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 10238",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 1120",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 12427",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 1365",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 1366",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 1929",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 2016",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 207",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 2155",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 2585",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 2687",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 2907",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 2998",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 3063",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 3468",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 3757",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 4762",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 5369",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 5372",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 5373",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 5374",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 5624",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6113",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6610",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6623",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6639",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6649",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6733",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6736",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6739",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 6760",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 723",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 724",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 725",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 730",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 8033",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 8412",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8363",
+      "target": "IS 8869",
+      "relation": "references"
+    },
+    {
+      "source": "IS 723",
+      "target": "IS 724",
+      "relation": "references"
+    },
+    {
+      "source": "IS 725",
+      "target": "IS 2585",
+      "relation": "references"
+    },
+    {
+      "source": "IS 725",
+      "target": "IS 730",
+      "relation": "references"
+    },
+    {
+      "source": "IS 730",
+      "target": "IS 1120",
+      "relation": "references"
+    },
+    {
+      "source": "IS 1363 (PART 2)",
+      "target": "IS 1363 (PART 3)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2016",
+      "target": "IS 2155",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2016",
+      "target": "IS 5369",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2585",
+      "target": "IS 2687",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3121",
+      "target": "IS 3468",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5369",
+      "target": "IS 5372",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5374",
+      "target": "IS 5624",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5624",
+      "target": "IS 6113",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6113",
+      "target": "IS 5369",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6113",
+      "target": "IS 6610",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6610",
+      "target": "IS 6623",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6623",
+      "target": "IS 6639",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6639",
+      "target": "IS 3757",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6639",
+      "target": "IS 5369",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6639",
+      "target": "IS 6649",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6649",
+      "target": "IS 6733",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6733",
+      "target": "IS 6736",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6739",
+      "target": "IS 6760",
+      "relation": "references"
+    },
+    {
+      "source": "IS 6760",
+      "target": "IS 8033",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8033",
+      "target": "IS 8412",
+      "relation": "references"
+    },
+    {
+      "source": "IS 8412",
+      "target": "IS 8869",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12427",
+      "target": "IS 2140",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12427",
+      "target": "IS 2365",
+      "relation": "references"
+    },
+    {
+      "source": "IS 12427",
+      "target": "IS 278",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2721",
+      "target": "IS 2835",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2721",
+      "target": "IS 3438",
+      "relation": "references"
+    },
+    {
+      "source": "IS 2721",
+      "target": "IS 5437",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3438",
+      "target": "IS 2835",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5437",
+      "target": "IS 110",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5437",
+      "target": "IS 3709",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5437",
+      "target": "IS 419",
+      "relation": "references"
+    },
+    {
+      "source": "IS 5437",
+      "target": "IS 423",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 11128",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 11307",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 11308",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 12436",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 13204",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 3677",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 4671",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 6598",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 7509",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 8154",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 8183",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 9428",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 9742",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 9743",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3709",
+      "target": "IS 9842",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9742",
+      "target": "IS 3677",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 10889",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 12830",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 12994",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 14182",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 14443",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 14643",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 14753",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 2036",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 2046",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 2508",
+      "relation": "references"
+    },
+    {
+      "source": "IS 13204",
+      "target": "IS 6307",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14753",
+      "target": "IS 1554 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14753",
+      "target": "IS 694",
+      "relation": "references"
+    },
+    {
+      "source": "IS 14753",
+      "target": "IS 7098 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 1293",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 14772",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 2086",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 2412",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 3419",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 3480",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 3837",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 3854",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 4160",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 4615",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 4649",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 6538",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9968 (PART 1)",
+      "target": "IS 694",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3419",
+      "target": "IS 3480",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3419",
+      "target": "IS 9537 (PART 3)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 3480",
+      "target": "IS 3837",
+      "relation": "references"
+    },
+    {
+      "source": "IS 4649",
+      "target": "IS 1293",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9537(PART II)",
+      "target": "IS 9537 (PART 1)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9537(PART II)",
+      "target": "IS 9537 (PART 3)",
+      "relation": "references"
+    },
+    {
+      "source": "IS 9537 (PART 3)",
+      "target": "IS 9537 (PART 1)",
+      "relation": "references"
+    }
+  ],
+  "stats": {
+    "node_count": 533,
+    "edge_count": 599,
+    "sections": 27
+  }
+}
