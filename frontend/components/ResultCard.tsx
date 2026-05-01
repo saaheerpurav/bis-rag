@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { StandardResult } from "@/lib/api";
+import { queryStandards } from "@/lib/api";
 
 interface Props {
   result: StandardResult;
@@ -22,7 +23,30 @@ const colorClass = (section: number) => {
 
 export default function ResultCard({ result, index, query }: Props) {
   const [expanded, setExpanded] = useState(index === 0);
+  const [rationale, setRationale] = useState(result.rationale || "");
+  const [roadmap, setRoadmap] = useState(result.roadmap || null);
+  const [loadingAnalysis, setLoadingAnalysis] = useState(false);
   const confidence = Math.round(result.confidence * 100);
+
+  const fetchAnalysis = async () => {
+    setLoadingAnalysis(true);
+    try {
+      const res = await queryStandards(query, {
+        include_rationale: true,
+        include_roadmap: true,
+        top_n: 5,
+      });
+      const match = res.results.find(r => r.is_code === result.is_code);
+      if (match) {
+        setRationale(match.rationale || "");
+        setRoadmap(match.roadmap || null);
+      }
+    } catch {
+      // silently fail
+    } finally {
+      setLoadingAnalysis(false);
+    }
+  };
 
   return (
     <motion.div
@@ -77,17 +101,33 @@ export default function ResultCard({ result, index, query }: Props) {
           >
             <div className="px-5 pb-5 border-t border-[var(--card-border)] pt-4 space-y-4">
               {/* Rationale */}
-              {result.rationale && (
+              {rationale ? (
                 <div>
                   <h4 className="text-xs font-semibold text-[var(--muted)] uppercase tracking-wider mb-2">
                     Why this standard
                   </h4>
-                  <p className="text-sm text-gray-300 leading-relaxed">{result.rationale}</p>
+                  <p className="text-sm text-gray-300 leading-relaxed">{rationale}</p>
                 </div>
+              ) : (
+                <button
+                  onClick={fetchAnalysis}
+                  disabled={loadingAnalysis}
+                  className="text-xs px-3 py-1.5 rounded-lg border border-indigo-500/30 text-indigo-400 hover:text-indigo-300 hover:border-indigo-400 transition-all disabled:opacity-50 flex items-center gap-2"
+                >
+                  {loadingAnalysis ? (
+                    <>
+                      <svg className="animate-spin h-3 w-3" viewBox="0 0 24 24" fill="none">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/>
+                      </svg>
+                      Generating AI analysis...
+                    </>
+                  ) : "Get AI Analysis (rationale + roadmap)"}
+                </button>
               )}
 
               {/* Roadmap */}
-              {result.roadmap && (
+              {roadmap && (
                 <div className="bg-indigo-500/5 border border-indigo-500/20 rounded-xl p-4 space-y-3">
                   <h4 className="text-xs font-semibold text-indigo-400 uppercase tracking-wider">
                     Compliance Roadmap
@@ -95,26 +135,26 @@ export default function ResultCard({ result, index, query }: Props) {
                   <div className="grid grid-cols-2 gap-3 text-sm">
                     <div>
                       <p className="text-[var(--muted)] text-xs mb-1">License Type</p>
-                      <p className="text-white">{result.roadmap.license_type}</p>
+                      <p className="text-white">{roadmap.license_type}</p>
                     </div>
                     <div>
                       <p className="text-[var(--muted)] text-xs mb-1">Est. Timeline</p>
-                      <p className="text-white">{result.roadmap.timeline_weeks} weeks</p>
+                      <p className="text-white">{roadmap.timeline_weeks} weeks</p>
                     </div>
                     <div>
                       <p className="text-[var(--muted)] text-xs mb-1">Approx. Cost</p>
-                      <p className="text-green-400">{result.roadmap.estimated_cost_inr}</p>
+                      <p className="text-green-400">{roadmap.estimated_cost_inr}</p>
                     </div>
                     <div>
                       <p className="text-[var(--muted)] text-xs mb-1">Year</p>
                       <p className="text-white">{result.year}</p>
                     </div>
                   </div>
-                  {result.roadmap.required_tests?.length > 0 && (
+                  {roadmap.required_tests?.length > 0 && (
                     <div>
                       <p className="text-[var(--muted)] text-xs mb-2">Required Tests</p>
                       <ul className="flex flex-wrap gap-2">
-                        {result.roadmap.required_tests.map((t) => (
+                        {roadmap.required_tests.map((t) => (
                           <li key={t} className="text-xs px-2 py-1 rounded-lg bg-indigo-500/10 text-indigo-300">
                             {t}
                           </li>
@@ -122,9 +162,9 @@ export default function ResultCard({ result, index, query }: Props) {
                       </ul>
                     </div>
                   )}
-                  {result.roadmap.msme_tip && (
+                  {roadmap.msme_tip && (
                     <p className="text-xs text-yellow-300/80 bg-yellow-500/5 rounded-lg p-2 border border-yellow-500/10">
-                      💡 {result.roadmap.msme_tip}
+                      💡 {roadmap.msme_tip}
                     </p>
                   )}
                 </div>

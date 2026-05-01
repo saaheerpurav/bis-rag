@@ -32,8 +32,8 @@ export default function Home() {
     setResult(null);
     try {
       const res = await queryStandards(q, {
-        include_rationale: true,
-        include_roadmap: true,
+        include_rationale: false,
+        include_roadmap: false,
         language,
       });
       setResult(res);
