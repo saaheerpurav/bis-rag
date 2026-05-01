@@ -159,4 +159,20 @@ Copy `.env.example` to `.env`:
 
 ---
 
+---
+
+## External APIs & Data Sources (Transparency Disclosure)
+
+| Component | What it's used for | Required? |
+|---|---|---|
+| OpenAI `gpt-4o` | Rationale generation, compliance roadmap, Hindi translation | Web UI only |
+| OpenAI `whisper-1` | Voice note transcription (WhatsApp + web mic) | Web UI only |
+| Twilio WhatsApp API | Receive and reply to WhatsApp messages | WhatsApp bot only |
+| `BAAI/bge-small-en-v1.5` (fastembed ONNX) | Query + document embeddings for dense retrieval | **Yes — 23MB, auto-downloaded** |
+| BIS SP 21:2005 (provided PDF) | Sole source of all standards data | Yes |
+
+**The scoring script `inference.py` uses only fastembed (local ONNX) and BM25. No external API calls.**
+
+---
+
 ## Built for BIS × SS Hackathon · May 2026
