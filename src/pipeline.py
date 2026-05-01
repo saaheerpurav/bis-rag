@@ -2,13 +2,11 @@
 End-to-end RAG pipeline.
 
 Flow:
-1. Decompose query → structured intent
-2. HyDE → hypothetical document → embed
-3. Parallel: Dense (FAISS) + Sparse (BM25) retrieval
-4. Reciprocal Rank Fusion → top-20 candidates
-5. BGE Cross-Encoder rerank → top-5 IS codes
-6. Registry verification (hallucination shield)
-7. GPT-4o rationale + compliance roadmap generation
+1. Embed query locally (fastembed bge-small-en-v1.5, ONNX, ~80ms, no API)
+2. Parallel: Dense (FAISS) + Sparse (BM25) retrieval
+3. Reciprocal Rank Fusion → top-20 candidates
+4. Registry verification (hallucination shield)
+5. Optional: GPT-4o rationale + compliance roadmap (web UI only)
 """
 import json
 import time
@@ -31,7 +29,6 @@ class RAGPipeline:
         self,
         generate_rationale: bool = True,
         generate_roadmap: bool = False,
-        force_local: bool = False,
     ):
         self.generate_rationale = generate_rationale
         self.generate_roadmap = generate_roadmap
@@ -45,19 +42,9 @@ class RAGPipeline:
         self.vector_store = VectorStore.from_disk()
         self.bm25_store = BM25Store.from_disk()
 
-        # Load embedder (OpenAI only)
+        # Local embedder — fastembed ONNX, no API key, ~80ms/query on CPU
         from src.retrieval.embedder import get_embedder
         self.embedder = get_embedder()
-
-        # Query enhancement
-        from src.retrieval.hyde import HyDEGenerator
-        from src.retrieval.decomposer import QueryDecomposer
-        self.hyde = HyDEGenerator()
-        self.decomposer = QueryDecomposer()
-
-        # Reranker (GPT-4o-mini, no local model download)
-        from src.retrieval.reranker import Reranker
-        self.reranker = Reranker()
 
         # Generation
         if generate_rationale:
@@ -108,33 +95,32 @@ class RAGPipeline:
 
         import concurrent.futures
 
-        # Step 1: One API call for HyDE text + expanded query (replaces 2 separate calls)
-        hyde_result = self.hyde.generate_full(query_text)
-        hyde_text = hyde_result.get("hyde", query_text)
-        expanded_query = hyde_result.get("expanded", query_text)
-        decomposed = {"keywords": hyde_result.get("keywords", []), "expanded_query": expanded_query}
-
-        # Step 2: Embed HyDE text + BM25 search in parallel
+        # Step 1: Embed query locally + BM25 search in parallel (both fast, no API)
         with concurrent.futures.ThreadPoolExecutor(max_workers=2) as ex:
-            fut_vec = ex.submit(self.embedder.embed_one, hyde_text)
-            fut_bm25 = ex.submit(self.bm25_store.search, expanded_query, BM25_TOP_K)
+            fut_vec = ex.submit(self.embedder.embed_one, query_text)
+            fut_bm25 = ex.submit(self.bm25_store.search, query_text, BM25_TOP_K)
 
         query_vec = fut_vec.result()
         bm25_results = fut_bm25.result()
 
-        # Dense search (FAISS is in-memory, instant)
+        # Step 2: Dense search (FAISS in-memory, ~1ms)
         dense_results = self.vector_store.search(query_vec, top_k=DENSE_TOP_K)
 
-        # Step 4: RRF fusion -> top-20
-        fused = reciprocal_rank_fusion([dense_results, bm25_results], k=60)[:20]
+        # Deduplicate each list by is_code_norm before RRF
+        # (prevents standards with 3 chunks from accumulating unfair scores)
+        def dedup(ranked):
+            seen = set()
+            out = []
+            for meta, score in ranked:
+                code = meta["is_code_norm"]
+                if code not in seen:
+                    seen.add(code)
+                    out.append((meta, score))
+            return out
 
-        # Step 5: Rerank -> top-N
-        # rerank=True uses GPT-4o-mini (~+1.5s), rerank=False uses RRF order (already 100% on public set)
-        use_rerank = getattr(self, '_use_rerank', True)
-        if use_rerank and len(fused) > top_n:
-            reranked = self.reranker.rerank(query_text, fused, top_n=top_n)
-        else:
-            reranked = fused[:top_n]
+        # Step 3: RRF fusion -> top-N candidates
+        fused = reciprocal_rank_fusion([dedup(dense_results), dedup(bm25_results)], k=60)[:20]
+        reranked = fused[:top_n]
 
         # Step 6: Hallucination shield
         verified = self._verify_against_registry(reranked)
@@ -186,12 +172,9 @@ class RAGPipeline:
             "retrieved_standards": retrieved_standards,
             "results": results,
             "latency_seconds": round(latency, 3),
-            "decomposed": decomposed,
         }
 
     @classmethod
-    def load(cls, generate_rationale: bool = False, generate_roadmap: bool = False, use_rerank: bool = False):
+    def load(cls, generate_rationale: bool = False, generate_roadmap: bool = False):
         """Fast load for inference."""
-        instance = cls(generate_rationale=generate_rationale, generate_roadmap=generate_roadmap)
-        instance._use_rerank = use_rerank
-        return instance
+        return cls(generate_rationale=generate_rationale, generate_roadmap=generate_roadmap)

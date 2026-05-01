@@ -13,10 +13,14 @@ env/
 dist/
 build/
 
-# Embedding cache — 97MB, not needed at inference time
+# Embedding cache — not needed at inference time
 data/processed/cache/
 data/processed/embeddings.json
 data/processed/embeddings.tmp
+
+# Old OpenAI-based FAISS index (replaced by faiss_local.*)
+data/processed/faiss_openai.index
+data/processed/faiss_openai_meta.json
 
 # Source PDF — too large, judges don't need to rebuild
 data/raw/dataset.pdf

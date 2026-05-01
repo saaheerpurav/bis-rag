@@ -12,18 +12,20 @@ DATASET_PDF = DATA_RAW / "dataset.pdf"
 REGISTRY_PATH = DATA_PROCESSED / "registry.json"
 CHUNKS_PATH = DATA_PROCESSED / "chunks.jsonl"
 GRAPH_PATH = DATA_PROCESSED / "graph.json"
-FAISS_OPENAI_PATH = DATA_PROCESSED / "faiss_openai.index"
-FAISS_META_PATH = DATA_PROCESSED / "faiss_openai_meta.json"
+FAISS_OPENAI_PATH = DATA_PROCESSED / "faiss_local.index"
+FAISS_META_PATH = DATA_PROCESSED / "faiss_local_meta.json"
 BM25_PATH = DATA_PROCESSED / "bm25.pkl"
 CACHE_DIR = DATA_PROCESSED / "cache"
 
 # Models
-OPENAI_EMBED_MODEL = "text-embedding-3-large"
+OPENAI_EMBED_MODEL = "text-embedding-3-large"  # kept for reference / web UI HyDE
 OPENAI_EMBED_DIM = 3072
 OPENAI_CHAT_MODEL = "gpt-4o"
 OPENAI_MINI_MODEL = "gpt-4o-mini"
-LOCAL_EMBED_MODEL = "BAAI/bge-large-en-v1.5"
-RERANKER_MODEL = "BAAI/bge-reranker-base"
+# Local inference embedder — ONNX, no GPU, ~23MB model
+LOCAL_EMBED_MODEL = "BAAI/bge-small-en-v1.5"
+LOCAL_EMBED_DIM = 384
+RERANKER_MODEL = "BAAI/bge-reranker-base"  # not used in inference
 
 # Retrieval
 BM25_TOP_K = 30

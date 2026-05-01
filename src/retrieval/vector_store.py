@@ -52,6 +52,7 @@ class VectorStore:
 
     @classmethod
     def from_disk(cls, dim: int = None):
-        store = cls(dim or 3072)
+        from src.config import LOCAL_EMBED_DIM
+        store = cls(dim or LOCAL_EMBED_DIM)
         store.load()
         return store

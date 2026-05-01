@@ -12,7 +12,7 @@ from tqdm import tqdm
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.config import (
     DATASET_PDF, REGISTRY_PATH, CHUNKS_PATH, GRAPH_PATH,
-    FAISS_OPENAI_PATH, FAISS_META_PATH, BM25_PATH, DATA_RAW,
+    FAISS_OPENAI_PATH, FAISS_META_PATH, BM25_PATH, DATA_RAW, LOCAL_EMBED_MODEL,
 )
 from src.ingestion.pdf_parser import parse_pdf, save_registry, save_chunks
 from src.ingestion.graph_builder import build_graph
@@ -44,7 +44,7 @@ def main():
         registry = json.load(f)
     build_graph(registry, GRAPH_PATH)
 
-    print("\n[4/5] Building FAISS index (OpenAI embeddings)...")
+    print(f"\n[4/5] Building FAISS index ({LOCAL_EMBED_MODEL}, local ONNX)...")
     from src.retrieval.embedder import get_embedder
     from src.retrieval.vector_store import VectorStore
 
