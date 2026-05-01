@@ -6,7 +6,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from src.config import OPENAI_API_KEY, OPENAI_MINI_MODEL
+from src.config import get_openai_client, OPENAI_API_KEY, OPENAI_MINI_MODEL
 
 TRANSLATE_PROMPT = """Translate this BIS standards compliance text to simple Hindi (Devanagari script).
 Keep IS code numbers, standard numbers, technical terms in English.
@@ -19,8 +19,7 @@ Hindi translation:"""
 
 class HindiTranslator:
     def __init__(self):
-        from openai import OpenAI
-        self.client = OpenAI(api_key=OPENAI_API_KEY)
+        self.client = get_openai_client()
 
     @retry(wait=wait_random_exponential(min=1, max=10), stop=stop_after_attempt(3))
     def translate(self, text: str) -> str:

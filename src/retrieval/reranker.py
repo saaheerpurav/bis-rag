@@ -9,7 +9,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from src.config import OPENAI_API_KEY, OPENAI_MINI_MODEL, CHUNKS_PATH, RERANK_TOP_N
+from src.config import get_openai_client, OPENAI_API_KEY, OPENAI_MINI_MODEL, CHUNKS_PATH, RERANK_TOP_N
 
 RERANK_PROMPT = """You are a BIS standards expert. Given a user query and a list of candidate BIS standards, rank them by relevance.
 
@@ -24,8 +24,7 @@ JSON array only, no markdown:"""
 
 class Reranker:
     def __init__(self):
-        from openai import OpenAI
-        self.client = OpenAI(api_key=OPENAI_API_KEY)
+        self.client = get_openai_client()
         # Load chunk text lookup
         self._chunk_lookup: dict[str, str] = {}
         if CHUNKS_PATH.exists():

@@ -1,15 +1,25 @@
 @import "tailwindcss";
 
-:root {
-  --background: #0a0a0f;
-  --foreground: #e8e8f0;
-  --card: #13131a;
-  --card-border: #1e1e2e;
-  --accent: #6366f1;
-  --accent-glow: rgba(99, 102, 241, 0.15);
-  --muted: #4a4a6a;
-  --success: #22c55e;
+/* ============================================
+   KINETIC TYPOGRAPHY — DESIGN TOKEN SYSTEM
+   ============================================ */
+
+@theme {
+  --color-bg: #09090B;
+  --color-fg: #FAFAFA;
+  --color-muted: #27272A;
+  --color-muted-fg: #A1A1AA;
+  --color-accent: #DFE104;
+  --color-accent-fg: #000000;
+  --color-border: #3F3F46;
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
 }
+
+/* ============================================
+   BASE RESET & GLOBALS
+   ============================================ */
 
 * {
   box-sizing: border-box;
@@ -17,49 +27,176 @@
   margin: 0;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: 'Inter', system-ui, sans-serif;
-  min-height: 100vh;
+::selection {
+  background: var(--color-accent);
+  color: #000;
 }
 
-.glass {
-  background: rgba(19, 19, 26, 0.8);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--card-border);
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   NOISE TEXTURE OVERLAY
+   ============================================ */
+
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.03;
+  mix-blend-mode: overlay;
+}
+
+/* ============================================
+   TYPOGRAPHY UTILITIES
+   ============================================ */
+
+.text-hero {
+  font-size: clamp(3rem, 12vw, 14rem);
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+.text-section {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+}
+
+.text-massive-number {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
 }
 
 .is-code {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: var(--font-mono);
   font-size: 0.85rem;
   letter-spacing: 0.02em;
 }
 
-.glow {
-  box-shadow: 0 0 40px var(--accent-glow);
+/* ============================================
+   BRUTALIST SCROLLBAR
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-/* D3 graph styles */
-.graph-node circle {
-  stroke: #6366f1;
-  stroke-width: 1.5px;
-  cursor: pointer;
-  transition: r 0.2s;
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
 }
-.graph-node circle:hover { r: 8; }
-.graph-node.active circle { fill: #6366f1; }
-.graph-link { stroke: #2d2d4e; stroke-opacity: 0.6; }
-.graph-label { fill: #a0a0c0; font-size: 9px; pointer-events: none; }
 
-/* Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--background); }
-::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 0;
+}
+
+/* ============================================
+   CONFIDENCE BAR
+   ============================================ */
 
 .confidence-bar {
   height: 3px;
-  border-radius: 2px;
-  background: linear-gradient(90deg, #6366f1, #22c55e);
+  background: var(--color-accent);
   transition: width 0.6s ease;
+}
+
+/* ============================================
+   D3 GRAPH STYLES
+   ============================================ */
+
+.graph-node circle {
+  stroke: var(--color-border);
+  stroke-width: 2px;
+  cursor: pointer;
+  transition: r 0.2s;
+}
+
+.graph-node circle:hover {
+  r: 8;
+}
+
+.graph-node.active circle {
+  fill: var(--color-accent);
+}
+
+.graph-link {
+  stroke: var(--color-border);
+  stroke-opacity: 0.4;
+}
+
+.graph-label {
+  fill: var(--color-muted-fg);
+  font-size: 9px;
+  font-family: var(--font-mono);
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+/* ============================================
+   MARQUEE OVERRIDES
+   ============================================ */
+
+.rfm-marquee-container {
+  overflow: hidden !important;
+}
+
+/* ============================================
+   KINETIC ANIMATIONS
+   ============================================ */
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(223, 225, 4, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px rgba(223, 225, 4, 0.15);
+  }
+}
+
+@keyframes text-shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* ============================================
+   REDUCED MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .rfm-marquee-container {
+    animation: none !important;
+  }
 }

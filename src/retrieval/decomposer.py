@@ -7,7 +7,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from src.config import OPENAI_API_KEY, OPENAI_MINI_MODEL
+from src.config import get_openai_client, OPENAI_API_KEY, OPENAI_MINI_MODEL
 
 
 DECOMPOSE_PROMPT = """Extract structured information from this BIS compliance query.
@@ -25,8 +25,7 @@ JSON only, no markdown:"""
 
 class QueryDecomposer:
     def __init__(self):
-        from openai import OpenAI
-        self.client = OpenAI(api_key=OPENAI_API_KEY)
+        self.client = get_openai_client()
 
     @retry(wait=wait_random_exponential(min=1, max=10), stop=stop_after_attempt(3))
     def decompose(self, query: str) -> dict:

@@ -23,7 +23,7 @@ from fastapi.responses import JSONResponse
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from src.config import REGISTRY_PATH, GRAPH_PATH, DATASET_PDF, OPENAI_API_KEY
+from src.config import get_openai_client, REGISTRY_PATH, GRAPH_PATH, DATASET_PDF, OPENAI_API_KEY
 from src.api.schemas import QueryRequest, QueryResponse
 
 # Global pipeline instance
@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     global pipeline
     print("Loading RAG pipeline...")
     from src.pipeline import RAGPipeline
-    pipeline = RAGPipeline.load(generate_rationale=True, generate_roadmap=True)
+    pipeline = RAGPipeline.load(generate_rationale=False, generate_roadmap=False)
     print("Pipeline ready.")
     yield
     print("Shutting down.")
@@ -88,8 +88,7 @@ async def voice_endpoint(
     """Transcribe audio file via Whisper, then run RAG query."""
     if not OPENAI_API_KEY:
         raise HTTPException(400, "OpenAI API key required for voice transcription")
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = get_openai_client()
 
     content = await file.read()
     suffix = Path(file.filename).suffix or ".webm"

@@ -12,7 +12,7 @@ from twilio.request_validator import RequestValidator
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from src.config import TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER, OPENAI_API_KEY
+from src.config import get_openai_client, TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, TWILIO_WHATSAPP_NUMBER, OPENAI_API_KEY
 
 router = APIRouter()
 
@@ -36,8 +36,7 @@ def format_whatsapp_reply(results: list, query: str) -> str:
 
 async def transcribe_voice(media_url: str) -> str:
     """Download voice note and transcribe via Whisper."""
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = get_openai_client()
     async with httpx.AsyncClient() as http:
         resp = await http.get(
             media_url,

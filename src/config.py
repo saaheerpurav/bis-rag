@@ -20,8 +20,8 @@ CACHE_DIR = DATA_PROCESSED / "cache"
 # Models
 OPENAI_EMBED_MODEL = "text-embedding-3-large"  # kept for reference / web UI HyDE
 OPENAI_EMBED_DIM = 3072
-OPENAI_CHAT_MODEL = "gpt-4o"
-OPENAI_MINI_MODEL = "gpt-4o-mini"
+OPENAI_CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "llama3")
+OPENAI_MINI_MODEL = os.getenv("OPENAI_MINI_MODEL", "llama3")
 # Local inference embedder — ONNX, no GPU, ~23MB model
 LOCAL_EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 LOCAL_EMBED_DIM = 384
@@ -33,7 +33,18 @@ DENSE_TOP_K = 30
 RRF_K = 60
 RERANK_TOP_N = 5
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "ollama")
+LOCAL_LLM_URL = os.getenv("LOCAL_LLM_URL", "http://localhost:11434/v1")
+
 TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID", "")
 TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN", "")
 TWILIO_WHATSAPP_NUMBER = os.getenv("TWILIO_WHATSAPP_NUMBER", "whatsapp:+14155238886")
+
+def get_openai_client():
+    from openai import OpenAI
+    # For local LLMs (like Ollama, LM Studio), we pass base_url. 
+    # If LOCAL_LLM_URL is set to empty string, it will default back to standard OpenAI.
+    if LOCAL_LLM_URL:
+        return OpenAI(api_key=OPENAI_API_KEY, base_url=LOCAL_LLM_URL)
+    return OpenAI(api_key=OPENAI_API_KEY)
+

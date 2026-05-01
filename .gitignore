@@ -25,7 +25,8 @@ data/processed/faiss_openai_meta.json
 # Source PDF — too large, judges don't need to rebuild
 data/raw/dataset.pdf
 
-# Output files
+# Output files (judges generate their own)
+data/public_results.json
 data/bm25_results.json
 
 # Node / Next.js

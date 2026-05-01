@@ -9,7 +9,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-from src.config import OPENAI_API_KEY, OPENAI_MINI_MODEL, CHUNKS_PATH
+from src.config import get_openai_client, OPENAI_API_KEY, OPENAI_MINI_MODEL, CHUNKS_PATH
 
 
 ROADMAP_PROMPT = """You are a BIS compliance consultant helping an Indian Micro/Small Enterprise.
@@ -31,8 +31,7 @@ JSON only:"""
 
 class RoadmapGenerator:
     def __init__(self):
-        from openai import OpenAI
-        self.client = OpenAI(api_key=OPENAI_API_KEY)
+        self.client = get_openai_client()
         self._chunk_lookup: dict[str, str] = {}
         if CHUNKS_PATH.exists():
             with open(CHUNKS_PATH, encoding="utf-8") as f:

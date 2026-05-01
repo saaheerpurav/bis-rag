@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { StandardResult } from "@/lib/api";
-import { queryStandards } from "@/lib/api";
 
 interface Props {
   result: StandardResult;
@@ -10,162 +9,155 @@ interface Props {
   query: string;
 }
 
-const SECTION_COLORS: Record<number, string> = {
-  1: "indigo", 2: "violet", 3: "blue", 4: "green", 5: "yellow",
-  6: "emerald", 7: "orange", 8: "pink", 9: "cyan", 10: "teal",
-  14: "red", 15: "rose", 16: "amber",
-};
-
-const colorClass = (section: number) => {
-  const c = SECTION_COLORS[section] || "slate";
-  return `bg-${c}-500/10 text-${c}-400 border-${c}-500/20`;
-};
-
-export default function ResultCard({ result, index, query }: Props) {
+export default function ResultCard({ result, index }: Props) {
   const [expanded, setExpanded] = useState(index === 0);
-  const [rationale, setRationale] = useState(result.rationale || "");
-  const [roadmap, setRoadmap] = useState(result.roadmap || null);
-  const [loadingAnalysis, setLoadingAnalysis] = useState(false);
   const confidence = Math.round(result.confidence * 100);
-
-  const fetchAnalysis = async () => {
-    setLoadingAnalysis(true);
-    try {
-      const res = await queryStandards(query, {
-        include_rationale: true,
-        include_roadmap: true,
-        top_n: 5,
-      });
-      const match = res.results.find(r => r.is_code === result.is_code);
-      if (match) {
-        setRationale(match.rationale || "");
-        setRoadmap(match.roadmap || null);
-      }
-    } catch {
-      // silently fail
-    } finally {
-      setLoadingAnalysis(false);
-    }
-  };
+  const indexDisplay = String(index + 1).padStart(2, "0");
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.08 }}
-      className="glass rounded-2xl overflow-hidden"
+      className="group bg-bg"
     >
-      {/* Header */}
+      {/* Header — click to expand */}
       <button
-        className="w-full text-left p-5 flex items-start justify-between gap-4 group"
+        className="w-full text-left p-5 md:p-8 flex items-start justify-between gap-4 md:gap-8 hover:bg-accent transition-all duration-300"
         onClick={() => setExpanded(!expanded)}
+        aria-expanded={expanded}
       >
-        <div className="flex items-start gap-4 flex-1 min-w-0">
-          <span className="flex-shrink-0 w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-400 text-xs font-bold flex items-center justify-center">
-            {index + 1}
+        <div className="flex items-start gap-4 md:gap-6 flex-1 min-w-0">
+          {/* Massive index number */}
+          <span
+            className="text-massive-number text-4xl md:text-6xl lg:text-7xl text-muted group-hover:text-accent-fg transition-colors duration-300 flex-shrink-0 leading-none"
+            aria-hidden="true"
+          >
+            {indexDisplay}
           </span>
-          <div className="min-w-0">
-            <div className="flex items-center gap-2 flex-wrap">
-              <span className="is-code text-indigo-300 font-semibold">{result.is_code_formatted}</span>
-              <span className={`text-xs px-2 py-0.5 rounded-full border ${colorClass(result.section)}`}>
+
+          <div className="min-w-0 pt-1">
+            <div className="flex items-center gap-2 md:gap-3 flex-wrap">
+              <span className="is-code text-accent group-hover:text-accent-fg font-semibold transition-colors duration-300">
+                {result.is_code_formatted}
+              </span>
+              <span className="text-xs px-2 py-0.5 border-2 border-border text-muted-fg uppercase tracking-widest font-medium group-hover:border-accent-fg/30 group-hover:text-accent-fg transition-colors duration-300">
                 {result.section_name}
               </span>
             </div>
-            <p className="text-white font-medium mt-1 leading-tight">{result.title}</p>
+            <p className="text-fg text-base md:text-xl lg:text-2xl font-bold uppercase tracking-tight mt-2 leading-tight group-hover:text-accent-fg transition-colors duration-300">
+              {result.title}
+            </p>
           </div>
         </div>
 
-        <div className="flex-shrink-0 flex flex-col items-end gap-1">
-          <span className="text-xs text-[var(--muted)]">{confidence}% match</span>
-          <div className="w-20 h-1 rounded bg-[var(--card-border)]">
+        <div className="flex-shrink-0 flex flex-col items-end gap-2">
+          <span className="text-xs uppercase tracking-widest text-muted-fg font-bold group-hover:text-accent-fg transition-colors duration-300">
+            {confidence}% MATCH
+          </span>
+          <div className="w-16 md:w-24 h-[3px] bg-border group-hover:bg-accent-fg/30 transition-colors duration-300">
             <div
-              className="confidence-bar"
+              className="confidence-bar group-hover:bg-accent-fg"
               style={{ width: `${Math.min(confidence, 100)}%` }}
             />
           </div>
-          <span className="text-[var(--muted)] text-lg group-hover:text-white transition-colors mt-1">
-            {expanded ? "↑" : "↓"}
+          <span
+            className="text-muted-fg text-xl md:text-2xl font-bold group-hover:text-accent-fg transition-all duration-300 mt-1"
+            aria-hidden="true"
+          >
+            {expanded ? "−" : "+"}
           </span>
         </div>
       </button>
 
       {/* Expanded content */}
-      <AnimatePresence>
+      <AnimatePresence initial={false}>
         {expanded && (
           <motion.div
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.25 }}
+            transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <div className="px-5 pb-5 border-t border-[var(--card-border)] pt-4 space-y-4">
+            <div className="px-5 md:px-8 pb-6 md:pb-8 border-t-2 border-border pt-6 space-y-6">
               {/* Rationale */}
-              {rationale ? (
+              {result.rationale && (
                 <div>
-                  <h4 className="text-xs font-semibold text-[var(--muted)] uppercase tracking-wider mb-2">
-                    Why this standard
+                  <h4 className="text-xs font-bold text-muted-fg uppercase tracking-widest mb-3">
+                    WHY THIS STANDARD
                   </h4>
-                  <p className="text-sm text-gray-300 leading-relaxed">{rationale}</p>
+                  <p className="text-base md:text-lg text-muted-fg leading-tight">
+                    {result.rationale}
+                  </p>
                 </div>
-              ) : (
-                <button
-                  onClick={fetchAnalysis}
-                  disabled={loadingAnalysis}
-                  className="text-xs px-3 py-1.5 rounded-lg border border-indigo-500/30 text-indigo-400 hover:text-indigo-300 hover:border-indigo-400 transition-all disabled:opacity-50 flex items-center gap-2"
-                >
-                  {loadingAnalysis ? (
-                    <>
-                      <svg className="animate-spin h-3 w-3" viewBox="0 0 24 24" fill="none">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/>
-                      </svg>
-                      Generating AI analysis...
-                    </>
-                  ) : "Get AI Analysis (rationale + roadmap)"}
-                </button>
               )}
 
               {/* Roadmap */}
-              {roadmap && (
-                <div className="bg-indigo-500/5 border border-indigo-500/20 rounded-xl p-4 space-y-3">
-                  <h4 className="text-xs font-semibold text-indigo-400 uppercase tracking-wider">
-                    Compliance Roadmap
+              {result.roadmap && (
+                <div className="border-2 border-border p-5 md:p-6 space-y-4">
+                  <h4 className="text-xs font-bold text-accent uppercase tracking-widest">
+                    COMPLIANCE ROADMAP
                   </h4>
-                  <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
                     <div>
-                      <p className="text-[var(--muted)] text-xs mb-1">License Type</p>
-                      <p className="text-white">{roadmap.license_type}</p>
+                      <p className="text-xs uppercase tracking-widest text-muted-fg mb-1">
+                        LICENSE
+                      </p>
+                      <p className="text-base md:text-lg text-fg font-bold uppercase tracking-tight">
+                        {result.roadmap.license_type}
+                      </p>
                     </div>
                     <div>
-                      <p className="text-[var(--muted)] text-xs mb-1">Est. Timeline</p>
-                      <p className="text-white">{roadmap.timeline_weeks} weeks</p>
+                      <p className="text-xs uppercase tracking-widest text-muted-fg mb-1">
+                        TIMELINE
+                      </p>
+                      <p className="text-base md:text-lg text-fg font-bold uppercase tracking-tight">
+                        {result.roadmap.timeline_weeks} WKS
+                      </p>
                     </div>
                     <div>
-                      <p className="text-[var(--muted)] text-xs mb-1">Approx. Cost</p>
-                      <p className="text-green-400">{roadmap.estimated_cost_inr}</p>
+                      <p className="text-xs uppercase tracking-widest text-muted-fg mb-1">
+                        COST
+                      </p>
+                      <p className="text-base md:text-lg text-accent font-bold tracking-tight">
+                        {result.roadmap.estimated_cost_inr}
+                      </p>
                     </div>
                     <div>
-                      <p className="text-[var(--muted)] text-xs mb-1">Year</p>
-                      <p className="text-white">{result.year}</p>
+                      <p className="text-xs uppercase tracking-widest text-muted-fg mb-1">
+                        YEAR
+                      </p>
+                      <p className="text-base md:text-lg text-fg font-bold uppercase tracking-tight">
+                        {result.year}
+                      </p>
                     </div>
                   </div>
-                  {roadmap.required_tests?.length > 0 && (
+
+                  {result.roadmap.required_tests?.length > 0 && (
                     <div>
-                      <p className="text-[var(--muted)] text-xs mb-2">Required Tests</p>
+                      <p className="text-xs uppercase tracking-widest text-muted-fg mb-2">
+                        REQUIRED TESTS
+                      </p>
                       <ul className="flex flex-wrap gap-2">
-                        {roadmap.required_tests.map((t) => (
-                          <li key={t} className="text-xs px-2 py-1 rounded-lg bg-indigo-500/10 text-indigo-300">
+                        {result.roadmap.required_tests.map((t) => (
+                          <li
+                            key={t}
+                            className="text-xs px-3 py-1.5 border-2 border-border text-muted-fg uppercase tracking-wide font-medium"
+                          >
                             {t}
                           </li>
                         ))}
                       </ul>
                     </div>
                   )}
-                  {roadmap.msme_tip && (
-                    <p className="text-xs text-yellow-300/80 bg-yellow-500/5 rounded-lg p-2 border border-yellow-500/10">
-                      💡 {roadmap.msme_tip}
-                    </p>
+
+                  {result.roadmap.msme_tip && (
+                    <div className="border-l-4 border-accent pl-4 py-2">
+                      <p className="text-xs md:text-sm text-accent uppercase tracking-wide font-medium">
+                        💡 {result.roadmap.msme_tip}
+                      </p>
+                    </div>
                   )}
                 </div>
               )}
@@ -173,12 +165,15 @@ export default function ResultCard({ result, index, query }: Props) {
               {/* Cross-refs */}
               {result.cross_refs?.length > 0 && (
                 <div>
-                  <h4 className="text-xs font-semibold text-[var(--muted)] uppercase tracking-wider mb-2">
-                    Related Standards
+                  <h4 className="text-xs font-bold text-muted-fg uppercase tracking-widest mb-3">
+                    RELATED STANDARDS
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {result.cross_refs.map((ref) => (
-                      <span key={ref} className="is-code text-xs px-2 py-1 rounded-lg bg-[var(--card)] border border-[var(--card-border)] text-[var(--muted)]">
+                      <span
+                        key={ref}
+                        className="is-code text-xs px-3 py-1.5 border-2 border-border text-muted-fg uppercase tracking-wide"
+                      >
                         {ref}
                       </span>
                     ))}
@@ -187,13 +182,15 @@ export default function ResultCard({ result, index, query }: Props) {
               )}
 
               {/* Source link */}
-              <div className="flex items-center gap-4 pt-1">
-                <span className="text-xs text-[var(--muted)]">PDF page {result.page_start}</span>
+              <div className="flex items-center gap-6 pt-2 border-t-2 border-border pt-4">
+                <span className="text-xs uppercase tracking-widest text-muted-fg font-medium">
+                  PDF PAGE {result.page_start}
+                </span>
                 <a
                   href={`/standard/${encodeURIComponent(result.is_code)}`}
-                  className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+                  className="text-xs uppercase tracking-widest font-bold text-accent hover:text-fg transition-colors duration-200"
                 >
-                  View full standard →
+                  VIEW FULL STANDARD →
                 </a>
               </div>
             </div>
