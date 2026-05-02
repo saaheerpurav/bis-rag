@@ -74,7 +74,7 @@ export default function Home() {
       {/* ===== HERO ===== */}
       <motion.section
         style={{ scale: heroScale, opacity: heroOpacity }}
-        className="w-full relative flex flex-col items-center justify-center px-6 pt-16 md:pt-24 pb-10 md:pb-16 overflow-hidden"
+        className="w-full relative flex flex-col items-center px-6 pt-24 md:pt-32 lg:pt-40 pb-10 md:pb-16"
       >
         {/* Background watermark */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden="true">
@@ -85,19 +85,19 @@ export default function Home() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="relative z-10 text-center max-w-4xl mx-auto"
+          className="relative z-10 w-full max-w-4xl mx-auto flex flex-col items-center justify-center mt-32"
         >
-          <h1 className="text-hero text-fg">
+          <h1 className="text-hero text-fg break-words text-center">
             BIS<br /><span className="text-accent">CO-PILOT</span>
           </h1>
 
           {/* Subtitle — high contrast, clearly readable */}
-          <p className="mt-5 md:mt-6 text-base md:text-lg lg:text-xl text-fg/90 max-w-xl mx-auto font-normal leading-relaxed">
+          <p className="mt-5 md:mt-6 text-base md:text-lg lg:text-xl text-fg/90 max-w-xl text-center font-normal leading-relaxed">
             Describe your product. Get the exact BIS standards you need — in seconds.
           </p>
 
           {/* Debug line — subtle */}
-          <p className="mt-2 text-[10px] uppercase tracking-[0.25em] text-muted-fg/40 font-medium">
+          <p className="mt-2 text-[10px] uppercase tracking-[0.25em] text-muted-fg/40 font-medium text-center">
             Powered by RAG · SP 21:2005
           </p>
         </motion.div>

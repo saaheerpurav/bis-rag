@@ -65,11 +65,11 @@ body {
    ============================================ */
 
 .text-hero {
-  font-size: clamp(2.5rem, 9vw, 9rem);
+  font-size: clamp(2.5rem, 10vw, 6rem);
   font-family: var(--font-display);
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 0.9;
+  line-height: 1;
   letter-spacing: -0.04em;
 }
 
