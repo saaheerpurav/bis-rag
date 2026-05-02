@@ -117,6 +117,41 @@ async def voice_endpoint(
     return result
 
 
+@app.post("/analyse")
+async def analyse_endpoint(req: dict):
+    """Generate rationale + roadmap for a specific standard on demand."""
+    if pipeline is None:
+        raise HTTPException(503, "Pipeline not ready")
+
+    query_text = req.get("query", "")
+    is_code_norm = req.get("is_code_norm", "")
+
+    std = pipeline.registry.get(is_code_norm)
+    if not std:
+        raise HTTPException(404, f"Standard '{is_code_norm}' not found")
+
+    result: dict = {}
+
+    # Lazy-load generators (only when user explicitly requests analysis)
+    try:
+        from src.generation.rationale import RationaleGenerator
+        rationale_gen = RationaleGenerator()
+        rationales = rationale_gen.generate_batch(query_text, [std])
+        result["rationale"] = next(iter(rationales.values()), "")
+    except Exception as e:
+        result["rationale"] = f"(Analysis unavailable: {e})"
+
+    if req.get("include_roadmap", True):
+        try:
+            from src.generation.roadmap import RoadmapGenerator
+            roadmap_gen = RoadmapGenerator()
+            result["roadmap"] = roadmap_gen.generate(query_text, std)
+        except Exception as e:
+            result["roadmap"] = None
+
+    return result
+
+
 @app.get("/standard/{code}")
 async def get_standard(code: str):
     """Get full standard details by normalized IS code."""

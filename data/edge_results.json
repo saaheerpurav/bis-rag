@@ -1,0 +1,41 @@
+[
+  {
+    "id": "EDGE-01",
+    "query": "cement",
+    "expected_standards": [],
+    "retrieved_standards": [
+      "IS 12269: 1987",
+      "IS 13000: 1990",
+      "IS 455: 1989",
+      "IS 8042: 1989",
+      "IS 269: 1989"
+    ],
+    "latency_seconds": 0.014
+  },
+  {
+    "id": "EDGE-02",
+    "query": "IS 269",
+    "expected_standards": [],
+    "retrieved_standards": [
+      "IS 5871: 1987",
+      "IS 2687: 1991",
+      "IS 6909: 1990",
+      "IS 3921: 1985",
+      "IS 8042: 1989"
+    ],
+    "latency_seconds": 0.012
+  },
+  {
+    "id": "EDGE-03",
+    "query": "What standards do I need for a construction company building houses with cement, concrete blocks, and aggregate?",
+    "expected_standards": [],
+    "retrieved_standards": [
+      "IS 2185 (PART  1): 1979",
+      "IS 875 (PART 1): 1987",
+      "IS 3115: 1992",
+      "IS 12440: 1988",
+      "IS 9893: 1981"
+    ],
+    "latency_seconds": 0.023
+  }
+]

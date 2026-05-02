@@ -2,6 +2,7 @@ const BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export interface StandardResult {
   is_code: string;
+  is_code_norm: string;
   year: number;
   title: string;
   section: number;
@@ -94,6 +95,20 @@ export async function voiceQuery(
 export async function getGraph(): Promise<GraphData> {
   const res = await fetch(`${BASE}/graph`);
   if (!res.ok) throw new Error("Graph fetch failed");
+  return res.json();
+}
+
+export async function analyseStandard(
+  query: string,
+  is_code_norm: string,
+  include_roadmap = true
+): Promise<{ rationale: string; roadmap?: RoadmapData }> {
+  const res = await fetch(`${BASE}/analyse`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ query, is_code_norm, include_roadmap }),
+  });
+  if (!res.ok) throw new Error("Analysis failed");
   return res.json();
 }
 

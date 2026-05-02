@@ -1,0 +1,77 @@
+[
+  {
+    "id": "HARD-01",
+    "query": "Our startup wants to produce building blocks that are lighter than normal concrete, specifically for partition walls. What IS standard should we follow?",
+    "expected_standards": [
+      "IS 2185 (Part 2): 1983"
+    ],
+    "retrieved_standards": [
+      "IS 2849: 1983",
+      "IS 12440: 1988",
+      "IS 2185 (PART 2): 1983",
+      "IS 2185 (PART  1): 1979",
+      "IS 3115: 1992"
+    ],
+    "latency_seconds": 0.023
+  },
+  {
+    "id": "HARD-02",
+    "query": "We are setting up a small factory to make roof sheets from a mixture of cement and mineral fibre. Which standard regulates this product?",
+    "expected_standards": [
+      "IS 459: 1992"
+    ],
+    "retrieved_standards": [
+      "IS 14862: 2000",
+      "IS 1626: 1984",
+      "IS 9893: 1981",
+      "IS 9743: 1990",
+      "IS 14871: 2000"
+    ],
+    "latency_seconds": 0.018
+  },
+  {
+    "id": "HARD-03",
+    "query": "I manufacture a type of cement where clinker is mixed with granulated blast furnace slag. What BIS certification do I need?",
+    "expected_standards": [
+      "IS 455: 1989"
+    ],
+    "retrieved_standards": [
+      "IS 455: 1989",
+      "IS 12269: 1987",
+      "IS 2645: 2003",
+      "IS 6250: 1981",
+      "IS 9743: 1990"
+    ],
+    "latency_seconds": 0.028
+  },
+  {
+    "id": "HARD-04",
+    "query": "What standard covers the specification for precast drainage pipes made without steel reinforcement?",
+    "expected_standards": [
+      "IS 458: 2003"
+    ],
+    "retrieved_standards": [
+      "IS 458: 2003",
+      "IS 12592: 2002",
+      "IS 11925: 1986",
+      "IS 7181: 1986",
+      "IS 4350: 1967"
+    ],
+    "latency_seconds": 0.026
+  },
+  {
+    "id": "HARD-05",
+    "query": "Which Indian standard applies to the white variety of ordinary Portland cement used in decorative construction?",
+    "expected_standards": [
+      "IS 8042: 1989"
+    ],
+    "retrieved_standards": [
+      "IS 8042: 1989",
+      "IS 12269: 1987",
+      "IS 8041: 1990",
+      "IS 10388: 1982",
+      "IS 8112: 1989"
+    ],
+    "latency_seconds": 0.04
+  }
+]

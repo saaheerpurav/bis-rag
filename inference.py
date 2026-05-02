@@ -1,15 +1,30 @@
 """
-BIS Standards Recommendation Engine — Judge Entry Point
+BIS Compliance Co-pilot: Judge Entry Point
+==========================================
 
 Usage:
     python inference.py --input public_test_set.json --output team_results.json
+    python inference.py --input hidden_private_dataset.json --output team_results.json
 
-Reads:  JSON array of {id, query, expected_standards?}
-Writes: JSON array of {id, query, expected_standards, retrieved_standards, latency_seconds}
+Pipeline (fully local, zero API calls):
+    1. fastembed bge-small-en-v1.5 (ONNX) embeds the query locally (~80ms, CPU only)
+    2. BM25 sparse retrieval runs in parallel (~5ms)
+    3. Per-list deduplication by IS code prevents multi-chunk score inflation
+    4. Reciprocal Rank Fusion (RRF k=60) merges dense + sparse ranked lists
+    5. Hallucination shield: verifies every IS code against the parsed registry
+    6. Returns top-5 IS codes with latency
 
-Requires:
-    - data/processed/ artifacts (built by scripts/build_index.py)
-    - OPENAI_API_KEY in environment or .env (optional — local fallback if missing)
+Input JSON schema:
+    [{"id": "Q1", "query": "product description", "expected_standards": [...]}]
+
+Output JSON schema (strict, matches eval_script.py):
+    [{"id": "Q1", "query": "...", "expected_standards": [...],
+      "retrieved_standards": ["IS 269: 1989", ...], "latency_seconds": 0.28}]
+
+Requirements:
+    - pip install -r requirements.txt
+    - data/processed/ indexes (pre-built, included in repo)
+    - No API key needed. No GPU needed. No internet connection needed.
 """
 import argparse
 import json

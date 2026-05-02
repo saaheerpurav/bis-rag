@@ -38,12 +38,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               BIS Co-pilot
             </span>
           </a>
-          <div className="flex items-center gap-6">
-            <a href="/" className="text-xs uppercase tracking-widest font-semibold text-muted-fg hover:text-accent transition-colors duration-200">
+          <div className="flex items-center gap-3">
+            <a href="/" className="text-xs uppercase tracking-widest font-semibold text-muted-fg hover:text-fg transition-colors duration-200 px-3 py-1.5">
               Search
             </a>
-            <a href="/graph" className="text-xs uppercase tracking-widest font-semibold text-muted-fg hover:text-accent transition-colors duration-200">
-              Graph
+            <a href="/graph" className="flex items-center gap-1.5 text-xs uppercase tracking-widest font-bold text-black bg-accent px-3 py-1.5 rounded hover:brightness-110 transition-all duration-200">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+              </svg>
+              Knowledge Graph
             </a>
           </div>
         </nav>

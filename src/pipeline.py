@@ -125,6 +125,12 @@ class RAGPipeline:
         # Step 6: Hallucination shield
         verified = self._verify_against_registry(reranked)
 
+        # Normalize scores so top result = 1.0 (avoids all results showing ~3% from raw RRF values)
+        if verified:
+            max_score = verified[0][1]
+            if max_score > 0:
+                verified = [(m, s / max_score) for m, s in verified]
+
         # Build output standards list
         retrieved_standards = [self._format_is_code(m) for m, _ in verified]
 
@@ -143,6 +149,7 @@ class RAGPipeline:
 
             entry = {
                 "is_code": std.get("is_code", meta["is_code"]),
+                "is_code_norm": meta["is_code_norm"],
                 "year": std.get("year", meta.get("year")),
                 "title": std.get("title", meta.get("title", "")),
                 "section": std.get("section", meta.get("section", 0)),

@@ -1,0 +1,16 @@
+{
+  "name": "BIS Compliance Co-pilot",
+  "short_name": "BIS Co-pilot",
+  "description": "AI-powered BIS Standards Recommendation Engine for Indian MSEs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#DFE104",
+  "icons": [
+    {
+      "src": "/globe.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

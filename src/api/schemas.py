@@ -12,6 +12,7 @@ class QueryRequest(BaseModel):
 
 class StandardResult(BaseModel):
     is_code: str
+    is_code_norm: str = ""
     year: int
     title: str
     section: int
