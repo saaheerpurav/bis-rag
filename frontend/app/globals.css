@@ -1,17 +1,19 @@
 @import "tailwindcss";
 
 /* ============================================
-   KINETIC TYPOGRAPHY — DESIGN TOKEN SYSTEM
+   DESIGN TOKEN SYSTEM
    ============================================ */
 
 @theme {
   --color-bg: #09090B;
   --color-fg: #FAFAFA;
   --color-muted: #27272A;
-  --color-muted-fg: #A1A1AA;
+  --color-muted-fg: #D4D4D8;
   --color-accent: #DFE104;
   --color-accent-fg: #000000;
   --color-border: #3F3F46;
+  --color-border-bright: #71717A;
+  --color-surface: #18181B;
   --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
   --font-body: "Inter", "Space Grotesk", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", "Fira Code", monospace;
@@ -63,11 +65,11 @@ body {
    ============================================ */
 
 .text-hero {
-  font-size: clamp(3rem, 12vw, 14rem);
+  font-size: clamp(2.5rem, 9vw, 9rem);
   font-family: var(--font-display);
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 0.85;
+  line-height: 0.9;
   letter-spacing: -0.04em;
 }
 
@@ -158,6 +160,29 @@ body {
 
 .rfm-marquee-container {
   overflow: hidden !important;
+}
+
+/* ============================================
+   SEARCH BOX — Elevated card with glow
+   ============================================ */
+
+.search-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-bright);
+  border-bottom: 3px solid var(--color-accent);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    0 2px 8px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-card:focus-within {
+  border-color: var(--color-accent);
+  box-shadow:
+    0 0 0 1px rgba(223, 225, 4, 0.2),
+    0 0 40px rgba(223, 225, 4, 0.1),
+    0 8px 32px rgba(0, 0, 0, 0.5);
 }
 
 /* ============================================

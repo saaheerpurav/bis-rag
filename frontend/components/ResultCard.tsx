@@ -22,8 +22,9 @@ export default function ResultCard({ result, index }: Props) {
       className="group bg-bg"
     >
       {/* Header — click to expand */}
+      {/* [FIX #12] focus-visible ring for keyboard nav */}
       <button
-        className="w-full text-left p-5 md:p-8 flex items-start justify-between gap-4 md:gap-8 hover:bg-accent transition-all duration-300"
+        className="w-full text-left p-6 md:p-8 flex items-start justify-between gap-4 md:gap-8 hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-inset transition-all duration-300"
         onClick={() => setExpanded(!expanded)}
         aria-expanded={expanded}
       >
@@ -80,14 +81,16 @@ export default function ResultCard({ result, index }: Props) {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <div className="px-5 md:px-8 pb-6 md:pb-8 border-t-2 border-border pt-6 space-y-6">
+            {/* [FIX #10] Consistent padding: p-6 md:p-8 */}
+            <div className="px-6 md:px-8 pb-6 md:pb-8 border-t-2 border-border pt-6 space-y-6">
               {/* Rationale */}
               {result.rationale && (
                 <div>
                   <h4 className="text-xs font-bold text-muted-fg uppercase tracking-widest mb-3">
                     WHY THIS STANDARD
                   </h4>
-                  <p className="text-base md:text-lg text-muted-fg leading-tight">
+                  {/* [FIX #2] Rationale body — brighter for readability */}
+                  <p className="text-base md:text-lg text-fg/70 leading-relaxed">
                     {result.rationale}
                   </p>
                 </div>
@@ -95,7 +98,7 @@ export default function ResultCard({ result, index }: Props) {
 
               {/* Roadmap */}
               {result.roadmap && (
-                <div className="border-2 border-border p-5 md:p-6 space-y-4">
+                <div className="border-2 border-border p-6 md:p-8 space-y-5">
                   <h4 className="text-xs font-bold text-accent uppercase tracking-widest">
                     COMPLIANCE ROADMAP
                   </h4>
@@ -182,7 +185,8 @@ export default function ResultCard({ result, index }: Props) {
               )}
 
               {/* Source link */}
-              <div className="flex items-center gap-6 pt-2 border-t-2 border-border pt-4">
+              {/* [FIX #10] Fixed duplicate pt class */}
+              <div className="flex items-center gap-6 border-t-2 border-border pt-4">
                 <span className="text-xs uppercase tracking-widest text-muted-fg font-medium">
                   PDF PAGE {result.page_start}
                 </span>
