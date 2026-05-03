@@ -82,8 +82,10 @@ export async function voiceQuery(
   audioBlob: Blob,
   language: "en" | "hi" = "en"
 ): Promise<QueryResponse & { transcribed_query: string }> {
+  const ext = audioBlob.type.includes("mp4") ? "mp4" :
+              audioBlob.type.includes("ogg") ? "ogg" : "webm";
   const formData = new FormData();
-  formData.append("file", audioBlob, "voice.webm");
+  formData.append("file", audioBlob, `voice.${ext}`);
   const res = await fetch(`${BASE}/voice?language=${language}`, {
     method: "POST",
     body: formData,
