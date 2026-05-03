@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'src/**'
+      - 'data/**'
+      - 'requirements.txt'
+      - 'inference.py'
+      - 'eval_script.py'
+      - '.python-version'
   workflow_dispatch:
 
 jobs:
