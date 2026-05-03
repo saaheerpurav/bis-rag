@@ -34,10 +34,8 @@ frontend/node_modules/
 frontend/.next/
 frontend/out/
 
-# Expo / React Native
-mobile/node_modules/
-mobile/.expo/
-mobile/dist/
+# Mobile app (dropped)
+mobile/
 
 # OS
 .DS_Store
