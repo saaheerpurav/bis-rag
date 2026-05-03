@@ -2,6 +2,32 @@
 import { useState, useRef, useCallback } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
+interface SpeechRecognitionEvent extends Event {
+  results: SpeechRecognitionResultList;
+}
+
+interface SpeechRecognitionInstance extends EventTarget {
+  lang: string;
+  interimResults: boolean;
+  maxAlternatives: number;
+  onresult: ((e: SpeechRecognitionEvent) => void) | null;
+  onerror: (() => void) | null;
+  onend: (() => void) | null;
+  start: () => void;
+  stop: () => void;
+}
+
+interface SpeechRecognitionConstructor {
+  new (): SpeechRecognitionInstance;
+}
+
+declare global {
+  interface Window {
+    SpeechRecognition?: SpeechRecognitionConstructor;
+    webkitSpeechRecognition?: SpeechRecognitionConstructor;
+  }
+}
+
 interface Props {
   onResult: (text: string) => void;
   language: "en" | "hi";
@@ -13,11 +39,10 @@ export default function VoiceMic({ onResult, language }: Props) {
     typeof window !== "undefined" &&
     ("SpeechRecognition" in window || "webkitSpeechRecognition" in window)
   );
-  const recognitionRef = useRef<InstanceType<typeof window.SpeechRecognition> | null>(null);
+  const recognitionRef = useRef<SpeechRecognitionInstance | null>(null);
 
   const startRecording = useCallback(() => {
-    const SR = (window as typeof window & { webkitSpeechRecognition?: typeof window.SpeechRecognition }).SpeechRecognition ||
-               (window as typeof window & { webkitSpeechRecognition?: typeof window.SpeechRecognition }).webkitSpeechRecognition;
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) return;
     const recognition = new SR();
     recognition.lang = language === "hi" ? "hi-IN" : "en-IN";
