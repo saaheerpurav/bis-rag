@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
     global pipeline
     print("Loading RAG pipeline...")
     from src.pipeline import RAGPipeline
-    pipeline = RAGPipeline.load(generate_rationale=False, generate_roadmap=False)
+    pipeline = RAGPipeline.load(generate_rationale=True, generate_roadmap=False)
     print("Pipeline ready.")
     yield
     print("Shutting down.")

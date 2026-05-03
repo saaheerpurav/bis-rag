@@ -154,6 +154,7 @@ class RAGPipeline:
                 "title": std.get("title", meta.get("title", "")),
                 "section": std.get("section", meta.get("section", 0)),
                 "section_name": std.get("section_name", meta.get("section_name", "")),
+                "scope": std.get("scope", ""),
                 "confidence": round(float(score), 4),
                 "rationale": rationale,
                 "page_start": std.get("page_start", 0),

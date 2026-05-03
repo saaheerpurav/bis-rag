@@ -22,15 +22,27 @@ def is_hindi(text: str) -> bool:
 
 
 def format_whatsapp_reply(results: list, query: str) -> str:
-    """Format top-3 results for WhatsApp."""
+    """Format top-3 results for WhatsApp with match % and scope."""
     lines = [f"🔍 *BIS Standards for:* _{query[:80]}_\n"]
+
     for i, r in enumerate(results[:3], 1):
-        lines.append(f"*{i}. {r['is_code_formatted']}*")
-        lines.append(f"   📋 {r['title']}")
-        if r.get("rationale"):
-            lines.append(f"   💡 {r['rationale'][:200]}")
+        pct = int(round(r.get("confidence", 0) * 100))
+        scope = r.get("scope", "").replace("\n", " ").strip()
+        scope_short = (scope[:120] + "…") if len(scope) > 120 else scope
+
+        lines.append(f"*{i}. {r['is_code_formatted']}* — {pct}% match")
+        lines.append(f"   📋 {r['title'].title()}")
+        if scope_short:
+            lines.append(f"   _{scope_short}_")
         lines.append("")
-    lines.append("_Powered by BIS Compliance Co-pilot_")
+
+    # Cross-refs from top result
+    top_refs = results[0].get("cross_refs", []) if results else []
+    if top_refs:
+        lines.append(f"🔗 *Related:* {', '.join(top_refs[:3])}")
+        lines.append("")
+
+    lines.append("_Send another product description to search again._")
     return "\n".join(lines)
 
 
@@ -89,7 +101,7 @@ async def whatsapp_webhook(
         result = pipeline.query(
             query_text,
             top_n=3,
-            include_rationale=True,
+            include_rationale=False,
             include_roadmap=False,
             language=language,
         )
